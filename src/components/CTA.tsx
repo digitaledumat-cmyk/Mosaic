@@ -22,7 +22,7 @@ export default function CTA() {
           >
             {t("button")}
           </a>
-          <p className="mt-4 text-sm text-white/60">{EMAIL}</p>
+          <p className="mt-4 text-sm text-white/85">{EMAIL}</p>
         </div>
       </div>
     </section>

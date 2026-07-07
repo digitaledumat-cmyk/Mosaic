@@ -22,11 +22,11 @@ export default function Footer() {
               <Logo light />
             </p>
             <p className="mt-2 text-sm text-muted">{t("tagline")}</p>
-            <p className="mt-3 text-sm leading-relaxed text-muted/90">{t("seoAbout")}</p>
+            <p className="mt-3 text-sm leading-relaxed text-muted">{t("seoAbout")}</p>
           </div>
 
           <div>
-            <p className="mb-3 text-xs font-bold tracking-widest text-ma-red uppercase">{t("commercial")}</p>
+            <p className="mb-3 text-xs font-bold tracking-widest text-ma-red-accent uppercase">{t("commercial")}</p>
             <ul className="space-y-2">
               {commercialRoutes.map((route) => (
                 <li key={route.href}>
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="mb-3 text-xs font-bold tracking-widest text-ma-red uppercase">{t("legal")}</p>
+            <p className="mb-3 text-xs font-bold tracking-widest text-ma-red-accent uppercase">{t("legal")}</p>
             <ul className="space-y-2">
               {legalRoutes.map((route) => (
                 <li key={route.href}>
@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="mb-3 text-xs font-bold tracking-widest text-ma-red uppercase">{t("local")}</p>
+            <p className="mb-3 text-xs font-bold tracking-widest text-ma-red-accent uppercase">{t("local")}</p>
             <ul className="space-y-2">
               {featuredMorocco.map((city) => (
                 <li key={city}>
@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="mb-3 text-xs font-bold tracking-widest text-ma-red uppercase">{t("contact")}</p>
+            <p className="mb-3 text-xs font-bold tracking-widest text-ma-red-accent uppercase">{t("contact")}</p>
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -96,7 +96,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="mt-10 border-t border-white/10 pt-6 text-center text-xs text-muted/70">
+        <p className="mt-10 border-t border-white/10 pt-6 text-center text-xs text-muted-soft">
           &copy; {year} {SITE_NAME} — {t("rights")}
         </p>
       </div>

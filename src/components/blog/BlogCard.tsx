@@ -34,7 +34,7 @@ export default function BlogCard({ post }: BlogCardProps) {
         {post.keywords.slice(0, 3).map((keyword) => (
           <span
             key={keyword}
-            className="rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-xs text-white/60"
+            className="rounded-full border border-white/15 bg-white/10 px-2.5 py-0.5 text-xs text-white/85"
           >
             {keyword}
           </span>

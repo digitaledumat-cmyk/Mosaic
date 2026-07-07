@@ -3,23 +3,31 @@
 :root {
   --ma-red: #c1272d;
   --ma-red-dark: #9e1f24;
-  --ma-red-light: #e8353f;
+  --ma-red-light: #ffb3b8;
+  --ma-red-accent: #ffc8cb;
   --ma-green: #006233;
   --ma-green-dark: #004124;
-  --ma-green-light: #0a7a45;
+  --ma-green-light: #0d8a4f;
+  --ma-green-accent: #8ae8b4;
+  --ma-green-accent-soft: #b8f5d4;
   --white: #ffffff;
-  --muted: #b8c9bf;
+  --muted: #dce9e3;
+  --muted-soft: #c8dbd2;
 }
 
 @theme inline {
   --color-ma-red: var(--ma-red);
   --color-ma-red-dark: var(--ma-red-dark);
   --color-ma-red-light: var(--ma-red-light);
+  --color-ma-red-accent: var(--ma-red-accent);
   --color-ma-green: var(--ma-green);
   --color-ma-green-dark: var(--ma-green-dark);
   --color-ma-green-light: var(--ma-green-light);
+  --color-ma-green-accent: var(--ma-green-accent);
+  --color-ma-green-accent-soft: var(--ma-green-accent-soft);
   --color-white: var(--white);
   --color-muted: var(--muted);
+  --color-muted-soft: var(--muted-soft);
   --font-display: var(--font-bricolage);
   --font-sans: var(--font-inter);
 }
@@ -48,7 +56,7 @@ body {
 }
 
 .section-eyebrow {
-  @apply mb-3 inline-block text-xs font-semibold tracking-widest text-ma-red uppercase;
+  @apply mb-3 inline-block text-xs font-semibold tracking-widest text-ma-red-accent uppercase;
 }
 
 .section-heading {
@@ -56,7 +64,7 @@ body {
 }
 
 .section-sub {
-  @apply mt-4 max-w-2xl text-base leading-relaxed text-muted;
+  @apply mt-4 max-w-2xl text-base leading-relaxed text-white/90;
 }
 
 .surface-card {
@@ -84,7 +92,7 @@ body {
 }
 
 .btn-whatsapp {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#20bd5a];
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#128C7E] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0f7a6e];
 }
 
 /* Hero — rouge du drapeau marocain */

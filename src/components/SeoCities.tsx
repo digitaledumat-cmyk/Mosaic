@@ -15,7 +15,7 @@ export default function SeoCities() {
         </div>
 
         <div className="mb-8">
-          <h3 className="mb-4 text-center text-xs font-semibold tracking-widest text-ma-red uppercase">
+          <h3 className="mb-4 text-center text-xs font-semibold tracking-widest text-ma-red-accent uppercase">
             {t("moroccoLabel")}
           </h3>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -35,7 +35,7 @@ export default function SeoCities() {
         </div>
 
         <div>
-          <h3 className="mb-4 text-center text-xs font-semibold tracking-widest text-ma-red uppercase">
+          <h3 className="mb-4 text-center text-xs font-semibold tracking-widest text-ma-red-accent uppercase">
             {t("diasporaLabel")}
           </h3>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

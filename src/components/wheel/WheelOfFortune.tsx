@@ -164,8 +164,8 @@ export default function WheelOfFortune() {
                   <h2 id="wc-wheel-title" className="font-display text-lg leading-snug font-extrabold text-white sm:text-xl">
                     {t("popupTitle")}
                   </h2>
-                  <p className="mt-2 text-sm leading-relaxed text-white/70">{t("popupSubtitle")}</p>
-                  <p id="wc-wheel-rules" className="mt-3 text-xs leading-relaxed text-white/55 sm:text-sm">
+                  <p className="mt-2 text-sm leading-relaxed text-white/85">{t("popupSubtitle")}</p>
+                  <p id="wc-wheel-rules" className="mt-3 text-xs leading-relaxed text-white/80 sm:text-sm">
                     {t("rules")}
                   </p>
                 </header>
@@ -262,7 +262,7 @@ export default function WheelOfFortune() {
                     )}
                   </button>
 
-                  <p className="mt-3 text-center text-xs text-white/45">{t("hint")}</p>
+                  <p className="mt-3 text-center text-xs text-white/75">{t("hint")}</p>
                 </div>
               </>
             ) : (
@@ -289,7 +289,7 @@ export default function WheelOfFortune() {
                   </p>
 
                   {isWin && (
-                    <p className="mt-3 text-sm leading-relaxed text-white/60">{t("winUpgrade")}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-white/85">{t("winUpgrade")}</p>
                   )}
 
                   {isWin && result.promoCode && (
@@ -320,7 +320,7 @@ export default function WheelOfFortune() {
                         <button
                           type="button"
                           onClick={dismissPopup}
-                          className="text-sm text-white/50 transition hover:text-white/80"
+                          className="text-sm text-white/80 transition hover:text-white"
                         >
                           {t("close")}
                         </button>
@@ -340,7 +340,7 @@ export default function WheelOfFortune() {
                         <button
                           type="button"
                           onClick={dismissPopup}
-                          className="text-sm text-white/50 transition hover:text-white/80"
+                          className="text-sm text-white/80 transition hover:text-white"
                         >
                           {t("close")}
                         </button>

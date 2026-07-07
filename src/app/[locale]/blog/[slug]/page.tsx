@@ -71,7 +71,7 @@ export default async function BlogPostPage({
 
       <div className="border-b border-white/10 bg-gradient-to-b from-ma-red/20 to-transparent">
         <div className="site-container py-12 md:py-16">
-          <nav className="mb-6 text-xs text-white/50" aria-label="Fil d'Ariane">
+          <nav className="mb-6 text-xs text-white/75" aria-label="Fil d'Ariane">
             <Link href="/" className="transition hover:text-white">
               Accueil
             </Link>

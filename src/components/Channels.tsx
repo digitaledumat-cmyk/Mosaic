@@ -20,14 +20,14 @@ export default function Channels() {
           <p className="section-sub mx-auto">
             {t.rich("description", {
               abonnement: (chunks) => <strong className="font-semibold text-white">{chunks}</strong>,
-              hd: (chunks) => <strong className="font-semibold text-ma-green-light">{chunks}</strong>,
-              k4: (chunks) => <strong className="font-semibold text-ma-green-light">{chunks}</strong>,
+              hd: (chunks) => <strong className="font-semibold text-ma-green-accent">{chunks}</strong>,
+              k4: (chunks) => <strong className="font-semibold text-ma-green-accent">{chunks}</strong>,
             })}
           </p>
         </div>
 
         <div className="surface-card mb-6 !bg-ma-green">
-          <p className="mb-3 text-center text-xs font-semibold tracking-widest text-ma-red uppercase">
+          <p className="mb-3 text-center text-xs font-semibold tracking-widest text-ma-red-accent uppercase">
             {t("moroccanLabel")}
           </p>
           <div className="flex flex-wrap justify-center gap-2">
@@ -43,7 +43,7 @@ export default function Channels() {
         </div>
 
         <div className="surface-card mb-8 !bg-ma-green">
-          <p className="mb-3 text-center text-xs font-semibold tracking-widest text-ma-red uppercase">
+          <p className="mb-3 text-center text-xs font-semibold tracking-widest text-ma-red-accent uppercase">
             {t("internationalLabel")}
           </p>
           <div className="flex flex-wrap justify-center gap-2">
@@ -55,7 +55,7 @@ export default function Channels() {
                 {ch}
               </span>
             ))}
-            <span className="rounded-lg bg-ma-red/25 px-3 py-1.5 text-xs font-bold text-ma-red-light">
+            <span className="rounded-lg bg-ma-red/40 px-3 py-1.5 text-xs font-bold text-white">
               {t("badge")}
             </span>
           </div>
@@ -103,7 +103,7 @@ function ChannelCard({
 }) {
   return (
     <div className={`surface-card !bg-ma-green ${accent ? "ring-1 ring-ma-red/20" : ""}`}>
-      <h3 className="mb-3 text-xs font-bold tracking-widest text-ma-red uppercase">{title}</h3>
+      <h3 className="mb-3 text-xs font-bold tracking-widest text-ma-red-accent uppercase">{title}</h3>
       <ul className="space-y-2">
         {channels.map((ch) => (
           <li key={ch} className="flex items-center gap-2 text-sm text-white">

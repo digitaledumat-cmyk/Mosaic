@@ -30,19 +30,19 @@ export default function Hero() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="animate-in">
             <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs font-semibold tracking-widest text-white uppercase backdrop-blur-sm">
-              <span className="h-1.5 w-1.5 rounded-full bg-ma-green-light" />
+              <span className="h-1.5 w-1.5 rounded-full bg-ma-green-accent" />
               {t("badge")}
             </span>
 
             <h1 className="font-display text-4xl font-extrabold leading-tight tracking-tight text-white md:text-5xl lg:text-[3.25rem]">
               {t("title")}
-              <span className="mt-1 block text-ma-green-light">{t("titleAccent")}</span>
+              <span className="mt-1 block text-ma-green-accent-soft">{t("titleAccent")}</span>
             </h1>
 
             <p className="mt-6 max-w-lg text-base leading-relaxed text-white/85 md:text-lg">
               {t.rich("subtitle", {
                 best: (chunks) => <strong className="font-semibold text-white">{chunks}</strong>,
-                k4: (chunks) => <strong className="font-semibold text-ma-green-light">{chunks}</strong>,
+                k4: (chunks) => <strong className="font-semibold text-ma-green-accent-soft">{chunks}</strong>,
               })}
             </p>
 
@@ -72,7 +72,7 @@ export default function Hero() {
                 </div>
               ))}
             </div>
-            <p className="px-5 py-3 text-center text-xs text-white/50">{t("channelsMore")}</p>
+            <p className="px-5 py-3 text-center text-xs text-white/80">{t("channelsMore")}</p>
           </div>
         </div>
 
@@ -80,7 +80,7 @@ export default function Hero() {
           {stats.map((s) => (
             <div key={s.label} className="text-center lg:text-start">
               <div className="font-display text-2xl font-bold text-white lg:text-3xl xl:text-4xl">{s.value}</div>
-              <div className="mt-1 text-xs text-white/65 lg:text-sm">{s.label}</div>
+              <div className="mt-1 text-xs text-white/85 lg:text-sm">{s.label}</div>
             </div>
           ))}
         </div>

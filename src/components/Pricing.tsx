@@ -15,7 +15,7 @@ export default function Pricing() {
           <p className="section-sub mx-auto">
             {t.rich("description", {
               abonnement: (chunks) => <strong className="font-semibold text-white">{chunks}</strong>,
-              recharge: (chunks) => <strong className="font-semibold text-ma-green-light">{chunks}</strong>,
+              recharge: (chunks) => <strong className="font-semibold text-ma-green-accent">{chunks}</strong>,
             })}
           </p>
         </div>
@@ -54,11 +54,11 @@ export default function Pricing() {
 
                 <div className="mb-4">
                   <h3 className="font-display text-lg font-bold text-white">{planName}</h3>
-                  <p className={`text-sm ${isPopular || isMaster ? "text-white/70" : "text-muted"}`}>
+                  <p className={`text-sm ${isPopular || isMaster ? "text-white/90" : "text-muted"}`}>
                     {t(`plans.${plan}.duration`)}
                   </p>
                   {t.has(`plans.${plan}.subtext`) && (
-                    <p className={`mt-1.5 text-xs leading-relaxed ${isPopular || isMaster ? "text-white/60" : "text-muted/80"}`}>
+                    <p className={`mt-1.5 text-xs leading-relaxed ${isPopular || isMaster ? "text-white/90" : "text-muted-soft"}`}>
                       {t(`plans.${plan}.subtext`)}
                     </p>
                   )}
@@ -67,12 +67,12 @@ export default function Pricing() {
                 <div className="mb-5 flex items-baseline gap-1">
                   <span
                     className={`font-display text-4xl font-extrabold ${
-                      isMaster ? "text-ma-red-light" : isPopular ? "text-white" : "text-ma-red-light"
+                      isMaster ? "text-white" : isPopular ? "text-white" : "text-ma-red-accent"
                     }`}
                   >
                     {t(`plans.${plan}.price`)}
                   </span>
-                  <span className={`text-sm ${isPopular || isMaster ? "text-white/70" : "text-muted"}`}>
+                  <span className={`text-sm ${isPopular || isMaster ? "text-white/90" : "text-muted"}`}>
                     {t(`plans.${plan}.currency`)}
                   </span>
                 </div>
@@ -82,11 +82,11 @@ export default function Pricing() {
                     <li
                       key={f}
                       className={`flex items-start gap-2 text-xs leading-relaxed ${
-                        isPopular || isMaster ? "text-white/90" : "text-muted"
+                        isPopular || isMaster ? "text-white" : "text-muted"
                       }`}
                     >
                       <svg
-                        className={`mt-0.5 h-4 w-4 shrink-0 ${isMaster ? "text-ma-red-light" : "text-ma-green-light"}`}
+                        className={`mt-0.5 h-4 w-4 shrink-0 ${isMaster ? "text-ma-green-accent" : "text-ma-green-accent"}`}
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
