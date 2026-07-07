@@ -14,6 +14,15 @@ const nextConfig: NextConfig = {
     // Inlines Tailwind CSS in <head> to remove render-blocking stylesheet requests (LCP).
     inlineCss: true,
   },
+  async redirects() {
+    return [
+      {
+        source: "/tarif",
+        destination: "/abonnement-iptv",
+        permanent: true,
+      },
+    ];
+  },
   turbopack: {
     resolveAlias: {
       "../build/polyfills/polyfill-module": modernPolyfillAlias,

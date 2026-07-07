@@ -7,7 +7,7 @@ export type SiteRoute = {
 
 export const commercialRoutes: SiteRoute[] = [
   {
-    href: "/tarif",
+    href: "/abonnement-iptv",
     label: "Tarifs IPTV Maroc",
     description: "Acheter IPTV Maroc et recharge IPTV Maroc — nos formules",
     group: "commercial",

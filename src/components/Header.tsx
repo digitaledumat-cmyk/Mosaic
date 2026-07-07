@@ -9,7 +9,7 @@ import HeaderWhatsAppCta from "./HeaderWhatsAppCta";
 
 const navLinks = [
   { href: "/" as const, labelKey: "home" as const },
-  { href: "/tarif" as const, labelKey: "pricing" as const },
+  { href: "/abonnement-iptv" as const, labelKey: "pricing" as const },
   { href: "/fonctionnalites" as const, labelKey: "why" as const },
   { href: "/guide-installation" as const, labelKey: "guide" as const },
   { href: "/faq" as const, labelKey: "faq" as const },

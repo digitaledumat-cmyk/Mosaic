@@ -1,6 +1,7 @@
 export const SITE_NAME = "Mozaic.ma";
 export const WHATSAPP_NUMBER = "212664140211";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(`Bonjour, je souhaite m'abonner à l'IPTV Maroc ${SITE_NAME}`)}`;
+export const WHATSAPP_ACTIVATION_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(`Bonjour, je souhaite activer mon abonnement IPTV Maroc ${SITE_NAME}`)}`;
 export const EMAIL = "contact@mozaic.ma";
 
 export const MOROCCAN_CHANNELS = [

@@ -29,7 +29,7 @@ export default function ProductJsonLd({ names }: ProductJsonLdProps) {
           price: plan.price,
           priceCurrency: "MAD",
           availability: "https://schema.org/InStock",
-          url: absoluteUrl("/tarif"),
+          url: absoluteUrl("/abonnement-iptv"),
         },
       },
     })),

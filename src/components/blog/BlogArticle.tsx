@@ -88,7 +88,7 @@ export default function BlogArticle({ post, relatedPosts = [] }: BlogArticleProp
           support WhatsApp 24h/24. Activation en quelques minutes.
         </p>
         <div className="mt-5 flex flex-wrap gap-3">
-          <Link href="/tarif" className="btn-primary !text-sm">
+          <Link href="/abonnement-iptv" className="btn-primary !text-sm">
             Voir les tarifs
           </Link>
           <a

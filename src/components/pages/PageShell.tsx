@@ -10,6 +10,7 @@ type PageShellProps = {
   description?: string;
   path?: string;
   breadcrumbItems?: BreadcrumbItem[];
+  headerExtra?: ReactNode;
   children?: ReactNode;
   variant?: "default" | "legal";
 };
@@ -20,6 +21,7 @@ export default function PageShell({
   description,
   path,
   breadcrumbItems,
+  headerExtra,
   children,
   variant = "default",
 }: PageShellProps) {
@@ -65,6 +67,7 @@ export default function PageShell({
               {description}
             </p>
           )}
+          {headerExtra ? <div className="mt-8">{headerExtra}</div> : null}
         </div>
       </div>
       {children ? (

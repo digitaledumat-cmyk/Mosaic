@@ -15,7 +15,7 @@ Mozaic.ma est un site commercial en français uniquement. Les visiteurs peuvent 
 ## Services
 
 - [Accueil](https://mozaic.ma/): Page principale — meilleur IPTV Maroc, IPTV 4K Maroc, Mondial 2026
-- [Tarifs](https://mozaic.ma/tarif): Formules Découverte (149 MAD / 3 mois), Confort (249 MAD / 6 mois), Master (399 MAD / 12 mois)
+- [Abonnement IPTV](https://mozaic.ma/abonnement-iptv): Formules Découverte (149 MAD / 3 mois), Confort (249 MAD / 6 mois), Master (399 MAD / 12 mois)
 - [Fonctionnalités](https://mozaic.ma/fonctionnalites): IPTV HD Maroc, anti-freeze, compatibilité Smart TV et box
 - [Guide d'installation](https://mozaic.ma/guide-installation): Configuration sur Smart TV, Android, Fire Stick et applications IPTV
 - [FAQ](https://mozaic.ma/faq): Questions sur l'abonnement, l'installation et le support

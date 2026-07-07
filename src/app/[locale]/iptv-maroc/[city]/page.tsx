@@ -75,7 +75,7 @@ export default async function CityPage({
             <h2 className="mb-4 font-display text-xl font-bold text-white">{tCity("linksTitle")}</h2>
             <div className="grid gap-4 sm:grid-cols-2">
               {[
-                { href: "/tarif" as const, label: tCity("links.pricing") },
+                { href: "/abonnement-iptv" as const, label: tCity("links.pricing") },
                 { href: "/guide-installation" as const, label: tCity("links.guide") },
                 { href: "/faq" as const, label: tCity("links.faq") },
                 { href: "/blog" as const, label: tCity("links.blog") },

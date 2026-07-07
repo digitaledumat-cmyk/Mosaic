@@ -45,7 +45,7 @@ export default function LocalServiceJsonLd({ city, serviceName, description }: L
       price: "149",
       priceCurrency: "MAD",
       availability: "https://schema.org/InStock",
-      url: absoluteUrl("/tarif"),
+      url: absoluteUrl("/abonnement-iptv"),
     },
   };
 

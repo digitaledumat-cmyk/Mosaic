@@ -4,6 +4,7 @@ import PageShell from "@/components/pages/PageShell";
 import TarifSeoContent from "@/components/pages/TarifSeoContent";
 import Pricing from "@/components/Pricing";
 import ProductJsonLd from "@/components/seo/ProductJsonLd";
+import { WHATSAPP_ACTIVATION_URL } from "@/lib/constants";
 import { buildPageMetadata, initPageLocale } from "@/lib/page-utils";
 
 export async function generateMetadata({
@@ -12,10 +13,10 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const locale = await initPageLocale(params);
-  return buildPageMetadata("pages.tarif", locale, "/tarif");
+  return buildPageMetadata("pages.tarif", locale, "/abonnement-iptv");
 }
 
-export default async function TarifPage({
+export default async function AbonnementIptvPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -37,7 +38,25 @@ export default async function TarifPage({
         eyebrow={t("eyebrow")}
         title={t("title")}
         description={t("description")}
-        path="/tarif"
+        path="/abonnement-iptv"
+        headerExtra={
+          <div className="flex flex-col gap-5 sm:flex-row sm:flex-wrap sm:items-center">
+            <div className="inline-flex flex-col rounded-2xl border border-white/25 bg-white/10 px-5 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] backdrop-blur-md">
+              <span className="text-sm font-bold tracking-wide text-ma-green-accent uppercase">
+                {t("guaranteeTitle")}
+              </span>
+              <span className="mt-0.5 text-sm font-semibold text-white">{t("guaranteeSubtitle")}</span>
+            </div>
+            <a
+              href={WHATSAPP_ACTIVATION_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-whatsapp sm:px-8"
+            >
+              {t("ctaActivate")}
+            </a>
+          </div>
+        }
       >
         <TarifSeoContent />
       </PageShell>
