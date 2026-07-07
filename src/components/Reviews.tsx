@@ -14,7 +14,7 @@ export default function Reviews() {
 
         <div className="mx-auto grid max-w-6xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
-            <div key={item} className="surface-card">
+            <div key={item} className="surface-card !bg-ma-green">
               <div className="mb-3 flex gap-0.5">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <svg key={i} className="h-4 w-4 text-ma-red-accent" fill="currentColor" viewBox="0 0 20 20">

@@ -26,7 +26,7 @@ export default function Channels() {
           </p>
         </div>
 
-        <div className="surface-card mb-6">
+        <div className="surface-card mb-6 !bg-ma-green">
           <p className="mb-3 text-center text-xs font-semibold tracking-widest text-ma-red-accent uppercase">
             {t("moroccanLabel")}
           </p>
@@ -42,7 +42,7 @@ export default function Channels() {
           </div>
         </div>
 
-        <div className="surface-card mb-8">
+        <div className="surface-card mb-8 !bg-ma-green">
           <p className="mb-3 text-center text-xs font-semibold tracking-widest text-ma-red-accent uppercase">
             {t("internationalLabel")}
           </p>
@@ -102,7 +102,7 @@ function ChannelCard({
   accent?: boolean;
 }) {
   return (
-    <div className={`surface-card ${accent ? "ring-1 ring-ma-red/20" : ""}`}>
+    <div className={`surface-card !bg-ma-green ${accent ? "ring-1 ring-ma-red/20" : ""}`}>
       <h3 className="mb-3 text-xs font-bold tracking-widest text-ma-red-accent uppercase">{title}</h3>
       <ul className="space-y-2">
         {channels.map((ch) => (

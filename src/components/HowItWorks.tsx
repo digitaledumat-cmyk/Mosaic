@@ -14,7 +14,7 @@ export default function HowItWorks() {
 
         <div className="mx-auto grid max-w-4xl gap-5 md:grid-cols-3">
           {steps.map((step) => (
-            <div key={step} className="surface-card-dark text-center">
+            <div key={step} className="surface-card !bg-ma-green-dark text-center">
               <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-ma-red font-display text-lg font-bold text-white">
                 {step}
               </div>

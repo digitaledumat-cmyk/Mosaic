@@ -44,7 +44,7 @@ export default function Header() {
   }, [moreOpen]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/15 bg-ma-green-dark/75 shadow-lg shadow-black/10 backdrop-blur-xl">
+    <header className="crystal-header sticky top-0 z-50">
       <div className="site-container flex h-16 items-center justify-between gap-4">
         <Link href="/" className="text-lg text-white">
           <Logo light />
@@ -82,7 +82,7 @@ export default function Header() {
             </button>
 
             {moreOpen && (
-              <div className="absolute top-full right-0 z-50 mt-1 min-w-56 rounded-xl border border-white/10 bg-ma-green-dark py-2 shadow-xl">
+              <div className="absolute top-full right-0 z-50 mt-1 min-w-56 rounded-xl border border-white/20 bg-ma-green-dark/80 py-2 shadow-xl backdrop-blur-xl">
                 {legalRoutes.map((route) => (
                   <Link
                     key={route.href}
@@ -121,7 +121,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="border-t border-white/10 bg-ma-green px-4 py-4 lg:hidden">
+        <div className="border-t border-white/15 bg-ma-green/80 px-4 py-4 backdrop-blur-xl lg:hidden">
           <nav className="flex flex-col gap-1">
             {navLinks.map((link) => (
               <Link

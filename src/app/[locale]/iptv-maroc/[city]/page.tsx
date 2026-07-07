@@ -83,7 +83,7 @@ export default async function CityPage({
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="surface-card transition hover:border-ma-red/40"
+                  className="surface-card !bg-ma-green transition hover:border-ma-red/40"
                 >
                   <span className="font-semibold text-white">{link.label}</span>
                 </Link>

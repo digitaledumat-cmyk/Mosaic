@@ -28,7 +28,7 @@ export default function FAQ({ hideHeading = false }: { hideHeading?: boolean }) 
           {items.map((item) => {
             const isOpen = open === item;
             return (
-              <div key={item} className="surface-card-dark !p-0 overflow-hidden">
+              <div key={item} className="surface-card !bg-ma-green-dark !p-0 overflow-hidden">
                 <h3 className="m-0">
                   <button
                     type="button"
