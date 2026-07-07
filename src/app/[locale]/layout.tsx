@@ -14,13 +14,17 @@ import "../globals.css";
 const bricolage = Bricolage_Grotesque({
   variable: "--font-bricolage",
   subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
+  display: "swap",
+  adjustFontFallback: true,
+  preload: true,
 });
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  adjustFontFallback: true,
+  preload: false,
 });
 
 export function generateStaticParams() {

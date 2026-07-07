@@ -1,16 +1,17 @@
+import dynamic from "next/dynamic";
 import { setRequestLocale } from "next-intl/server";
 import Hero from "@/components/Hero";
 import WhyUs from "@/components/WhyUs";
 import Channels from "@/components/Channels";
 import Pricing from "@/components/Pricing";
 import HowItWorks from "@/components/HowItWorks";
-import WheelOfFortune from "@/components/wheel/WheelOfFortune";
 import Reviews from "@/components/Reviews";
-import FAQ from "@/components/FAQ";
 import SeoCities from "@/components/SeoCities";
 import CTA from "@/components/CTA";
 import FaqJsonLd from "@/components/seo/FaqJsonLd";
 import ReviewsJsonLd from "@/components/seo/ReviewsJsonLd";
+
+const FAQ = dynamic(() => import("@/components/FAQ"));
 
 export default async function HomePage({
   params,
@@ -33,7 +34,6 @@ export default async function HomePage({
       <FAQ />
       <SeoCities />
       <CTA />
-      <WheelOfFortune />
     </>
   );
 }

@@ -2,10 +2,6 @@ import { useTranslations } from "next-intl";
 
 const paragraphs = ["p1", "p2", "p3", "p4"] as const;
 
-const richTags = {
-  s: (chunks: React.ReactNode) => <strong className="font-semibold text-white">{chunks}</strong>,
-};
-
 export default function WhyUs() {
   const t = useTranslations("why");
 
@@ -19,7 +15,7 @@ export default function WhyUs() {
           <div className="mt-8 space-y-5">
             {paragraphs.map((key) => (
               <p key={key} className="text-base leading-relaxed text-muted md:text-[1.05rem] md:leading-8">
-                {t.rich(`paragraphs.${key}`, richTags)}
+                {t(`paragraphs.${key}`)}
               </p>
             ))}
           </div>
