@@ -1,26 +1,133 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ma-red: #c1272d;
+  --ma-red-dark: #9e1f24;
+  --ma-red-light: #e8353f;
+  --ma-green: #006233;
+  --ma-green-dark: #004124;
+  --ma-green-light: #0a7a45;
+  --white: #ffffff;
+  --muted: #b8c9bf;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ma-red: var(--ma-red);
+  --color-ma-red-dark: var(--ma-red-dark);
+  --color-ma-red-light: var(--ma-red-light);
+  --color-ma-green: var(--ma-green);
+  --color-ma-green-dark: var(--ma-green-dark);
+  --color-ma-green-light: var(--ma-green-light);
+  --color-white: var(--white);
+  --color-muted: var(--muted);
+  --font-display: var(--font-bricolage);
+  --font-sans: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--ma-green-dark);
+  color: var(--white);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-bricolage), system-ui, sans-serif;
+}
+
+.site-container {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-block {
+  @apply py-16 md:py-24;
+}
+
+.section-eyebrow {
+  @apply mb-3 inline-block text-xs font-semibold tracking-widest text-ma-red uppercase;
+}
+
+.section-heading {
+  @apply font-display text-3xl font-bold tracking-tight text-white md:text-4xl;
+}
+
+.section-sub {
+  @apply mt-4 max-w-2xl text-base leading-relaxed text-muted;
+}
+
+.surface-card {
+  @apply rounded-2xl border border-white/10 bg-ma-green p-6 shadow-sm md:p-7;
+}
+
+.surface-card-red {
+  @apply rounded-2xl border border-white/15 bg-ma-red p-6 text-white shadow-sm md:p-7;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-ma-red px-6 py-3 text-sm font-semibold text-white transition hover:bg-ma-red-dark;
+}
+
+.btn-green {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-ma-green-light px-6 py-3 text-sm font-semibold text-white transition hover:bg-ma-green;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-white/25 bg-transparent px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10;
+}
+
+.btn-outline-dark {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-ma-green/20 bg-white px-6 py-3 text-sm font-semibold text-ma-green transition hover:bg-white/90;
+}
+
+.btn-whatsapp {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#20bd5a];
+}
+
+/* Hero — rouge du drapeau marocain */
+.hero-bg {
+  background:
+    radial-gradient(ellipse 60% 50% at 80% 20%, rgba(0, 98, 51, 0.15), transparent),
+    radial-gradient(ellipse 50% 40% at 20% 80%, rgba(0, 98, 51, 0.1), transparent),
+    linear-gradient(165deg, var(--ma-red) 0%, var(--ma-red-dark) 100%);
+  color: var(--white);
+}
+
+.grid-pattern-flag {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation: fade-up 0.6s ease-out both;
+}
+
+@keyframes wc-wheel-pulse {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.08);
+  }
+}
+
+.wc-wheel-blur {
+  animation: wc-wheel-pulse 0.35s ease-in-out infinite;
 }

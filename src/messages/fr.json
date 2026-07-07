@@ -1,0 +1,528 @@
+{
+  "meta": {
+    "title": "Meilleur IPTV Maroc 2026 — Abonnement IPTV 4K & HD | Mozaic.ma",
+    "description": "Mozaic.ma, fournisseur IPTV Maroc n°1 : abonnement IPTV Maroc, IPTV 4K Maroc et IPTV HD Maroc. Acheter IPTV Maroc ou recharge IPTV Maroc instantanée. +48 000 chaînes dès 149 MAD."
+  },
+  "nav": {
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "why": "Fonctionnalités",
+    "guide": "Guide",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "contact": "Contact",
+    "more": "Plus",
+    "channels": "Chaînes",
+    "subscribe": "S'abonner"
+  },
+  "hero": {
+    "badge": "Meilleur IPTV Maroc · 2026",
+    "title": "Meilleur IPTV Maroc",
+    "titleAccent": "IPTV 4K Maroc — Mondial 2026",
+    "subtitle": "Le <best>meilleur IPTV Maroc</best> pour vivre le Mondial 2026 en <k4>IPTV 4K Maroc</k4> sans coupure. Al Aoula, 2M, Arryadia, beIN Sports et +48 000 chaînes sur tous vos écrans.",
+    "cta": "Acheter IPTV Maroc sur WhatsApp",
+    "ctaSecondary": "Voir les abonnements",
+    "channelCount": "48 000+",
+    "channelsMore": "+48 000 chaînes IPTV Maroc — marocaines & internationales",
+    "stats": {
+      "channels": "Chaînes IPTV 4K Maroc",
+      "uptime": "Disponibilité 99,9 %",
+      "quality": "IPTV HD Maroc",
+      "support": "Support 24h/24"
+    }
+  },
+  "why": {
+    "label": "Fournisseur IPTV Maroc",
+    "title": "Pourquoi choisir notre IPTV Maroc ?",
+    "paragraphs": {
+      "p1": "En tant que <s>fournisseur IPTV Maroc</s> leader sur le marché, Mozaic.ma s'est imposé comme la référence ultime pour les amateurs de divertissement en haute définition. Trouver le <s>meilleur IPTV Maroc</s> implique d'allier un catalogue illimité à une stabilité technique irréprochable. C'est pourquoi notre infrastructure s'appuie sur des serveurs VPS de dernière génération, garantissant une expérience visuelle fluide et une qualité d'image sans compromis en <s>IPTV 4K Maroc</s> et <s>IPTV HD Maroc</s>. Que vous soyez un passionné de grands événements sportifs en direct ou un adepte des dernières sorties cinématographiques, notre plateforme répond à toutes vos exigences de streaming.",
+      "p2": "L'acquisition d'un <s>abonnement IPTV Maroc</s> chez Mozaic.ma vous ouvre les portes d'une compatibilité universelle inégalée. Notre architecture logicielle est entièrement optimisée pour chaque support de diffusion moderne. Vous pouvez configurer instantanément votre accès sur <s>IPTV Smart TV Maroc</s> (Samsung, LG, Sony), mais aussi profiter d'une fluidité parfaite via notre application dédiée sur <s>IPTV Android Maroc</s>. Pour les utilisateurs de boîtiers nomades et de clés de streaming, notre service est entièrement configuré pour l'<s>IPTV Firestick Maroc</s>, offrant une réactivité immédiate et une interface intuitive. De plus, pour ceux qui préfèrent des applications classiques et reconnues, notre flux est entièrement compatible avec <s>IPTV Smarters Maroc</s>, vous garantissant un contrôle total sur vos playlists et vos contenus favoris.",
+      "p3": "Notre rayonnement ne se limite pas aux frontières nationales. Mozaic.ma répond à une demande internationale croissante en se positionnant comme la plateforme de choix pour l'<s>IPTV France</s> et l'<s>IPTV France abonnement</s>, offrant les bouquets francophones les plus complets du secteur avec un routage réseau ultra-rapide vers l'Europe. Au-delà de l'Europe francophone, notre service s'étend pour fournir la meilleure expérience d'<s>IPTV subscription UK</s>, rivalisant directement avec les <s>best IPTV services</s> mondiaux. En tant que l'un des plus fiables <s>IPTV service providers</s>, notre engagement est de maintenir un taux de disponibilité (Uptime) proche de 99.9%, éliminant ainsi les micro-coupures et les freezes désagréables lors des diffusions majeures en direct.",
+      "p4": "Aujourd'hui, <s>acheter IPTV Maroc</s> de manière sécurisée ou effectuer une <s>recharge IPTV Maroc</s> rapide ne devrait plus être un casse-tête. C'est pourquoi Mozaic.ma a simplifié son processus de commande à l'extrême. Grâce à notre intégration intelligente, vous pouvez choisir votre formule et basculer directement sur notre support WhatsApp pour une activation en moins de 5 minutes par nos ingénieurs. Choisir Mozaic.ma, c'est opter pour le <s>best IPTV</s> disponible, soutenu par une assistance technique disponible 24 heures sur 24 et 7 jours sur 7. Ne faites plus de compromis entre le prix et la qualité, et rejoignez dès maintenant l'élite du streaming premium."
+    }
+  },
+  "channels": {
+    "label": "Catalogue IPTV Maroc",
+    "title": "+48 000 chaînes en IPTV HD Maroc et IPTV 4K Maroc",
+    "description": "Notre <abonnement>abonnement IPTV Maroc</abonnement> inclut toutes les chaînes marocaines et internationales : sport, info, culture et divertissement en <hd>IPTV HD Maroc</hd> et <k4>IPTV 4K Maroc</k4> premium.",
+    "badge": "+48 000",
+    "moroccanLabel": "Chaînes marocaines",
+    "internationalLabel": "Chaînes internationales",
+    "moroccanTitle": "Chaînes du Maroc",
+    "internationalTitle": "Les chaînes les plus connues au monde",
+    "categories": {
+      "moroccan": {
+        "general": "Généralistes",
+        "sport": "Sport",
+        "culture": "Culture & Info",
+        "religious": "Religieuses"
+      },
+      "international": {
+        "news": "Info & Actualités",
+        "sport": "Sport mondial",
+        "entertainment": "Divertissement",
+        "french": "France & Europe"
+      }
+    }
+  },
+  "pricing": {
+    "label": "Abonnement IPTV Maroc",
+    "title": "Acheter IPTV Maroc — Nos formules & recharges",
+    "description": "Choisissez votre <abonnement>abonnement IPTV Maroc</abonnement> et profitez d'une <recharge>recharge IPTV Maroc</recharge> instantanée après confirmation WhatsApp. Plus la durée est longue, plus le prix par mois est avantageux.",
+    "popular": "Populaire",
+    "perMonth": "/ mois",
+    "cta": "Acheter IPTV Maroc — WhatsApp",
+    "plans": {
+      "discovery": {
+        "name": "Découverte IPTV Maroc",
+        "duration": "3 mois",
+        "subtext": "Acheter IPTV Maroc — idéal pour tester le service",
+        "price": "149",
+        "currency": "MAD",
+        "features": [
+          "Catalogue de +48 000 flux TV Premium",
+          "+180 000 films et séries (VOD)",
+          "Serveur OTT VPS dédié",
+          "Résolution 4K UHD authentique",
+          "Anti-freeze 2.2 de pointe",
+          "Multi-Appareils (3 écrans : Salon, Chambre, Mobile)",
+          "Installation sur 3 appareils (connexion non simultanée)",
+          "Activation de l'Application non incluse",
+          "Ligne d'assistance 24/7"
+        ]
+      },
+      "comfort": {
+        "name": "Confort IPTV Maroc",
+        "duration": "6 mois",
+        "subtext": "Recharge IPTV Maroc instantanée — meilleur rapport qualité-prix",
+        "price": "249",
+        "currency": "MAD",
+        "features": [
+          "Catalogue de +48 000 flux TV Premium",
+          "+180 000 films et séries (VOD)",
+          "Serveur OTT VPS dédié",
+          "Résolution 4K UHD authentique",
+          "Anti-freeze 2.2 de pointe",
+          "Multi-Appareils (3 écrans : Salon, Chambre, Mobile)",
+          "Installation sur 3 appareils (connexion non simultanée)",
+          "Activation de l'Application non incluse",
+          "Ligne d'assistance 24/7"
+        ]
+      },
+      "family": {
+        "name": "Master IPTV Maroc",
+        "duration": "12 mois",
+        "subtext": "Recharge IPTV Maroc 12 mois — formule la plus économique",
+        "price": "399",
+        "currency": "MAD",
+        "badge": "Premium",
+        "features": [
+          "Catalogue de +48 000 flux TV Premium",
+          "+180 000 films et séries (VOD)",
+          "Serveur OTT VPS dédié",
+          "Résolution 4K UHD authentique",
+          "Anti-freeze 2.2 de pointe",
+          "Multi-Appareils (3 écrans : Salon, Chambre, Mobile)",
+          "Installation sur 3 appareils (connexion non simultanée)",
+          "Activation de l'Application PRO incluse",
+          "Ligne d'assistance VIP 24/7"
+        ]
+      }
+    }
+  },
+  "howItWorks": {
+    "label": "Comment acheter IPTV Maroc",
+    "title": "Acheter IPTV Maroc en 3 étapes simples",
+    "steps": {
+      "1": {
+        "title": "Choisissez votre abonnement IPTV Maroc",
+        "description": "Sélectionnez la formule 3, 6 ou 12 mois. Toutes incluent l'intégralité du catalogue IPTV 4K Maroc et IPTV HD Maroc."
+      },
+      "2": {
+        "title": "Confirmez sur WhatsApp",
+        "description": "Contactez notre fournisseur IPTV Maroc sur WhatsApp. Nous validons votre commande et votre mode de paiement en quelques minutes."
+      },
+      "3": {
+        "title": "Recharge IPTV Maroc activée",
+        "description": "Votre recharge IPTV Maroc est activée immédiatement avec un guide d'installation pour Smart TV, box ou mobile."
+      }
+    }
+  },
+  "reviews": {
+    "label": "Avis clients IPTV Maroc",
+    "title": "Ils ont choisi le meilleur IPTV Maroc",
+    "items": {
+      "1": {
+        "name": "Youssef B.",
+        "location": "Casablanca",
+        "text": "Le meilleur IPTV Maroc que j'ai testé. IPTV 4K Maroc impeccable pour les matchs, installation rapide et support réactif sur WhatsApp.",
+        "rating": "5"
+      },
+      "2": {
+        "name": "Fatima Z.",
+        "location": "Paris",
+        "text": "Depuis la France, mon abonnement IPTV Maroc fonctionne sans coupure. IPTV HD Maroc stable et excellent rapport qualité-prix.",
+        "rating": "5"
+      },
+      "3": {
+        "name": "Karim M.",
+        "location": "Rabat",
+        "text": "Recharge IPTV Maroc en moins de 10 minutes. L'équipe m'a guidé pour installer sur ma Smart TV Samsung. Fournisseur IPTV Maroc au top !",
+        "rating": "5"
+      },
+      "4": {
+        "name": "Ahmed R.",
+        "location": "Marrakech",
+        "text": "IPTV 4K Maroc parfait pour les soirs de match. Al Aoula, 2M et beIN Sports en direct sans freeze. Le meilleur IPTV Maroc pour toute la famille.",
+        "rating": "5"
+      },
+      "5": {
+        "name": "Nadia E.",
+        "location": "Bruxelles",
+        "text": "En Belgique, je retrouve toutes mes chaînes marocaines en IPTV HD Maroc. Abonnement IPTV Maroc simple à renouveler sur WhatsApp, service très professionnel.",
+        "rating": "5"
+      },
+      "6": {
+        "name": "Omar T.",
+        "location": "Tanger",
+        "text": "Installation sur Fire Stick en 5 minutes grâce au guide envoyé par le support. IPTV Maroc stable même le soir aux heures de pointe. Je recommande à 100 %.",
+        "rating": "5"
+      },
+      "7": {
+        "name": "Leila H.",
+        "location": "Montréal",
+        "text": "Depuis le Canada, mon abonnement IPTV Maroc fonctionne parfaitement. CAN, Ramadan et JT en direct — comme si j'étais au Maroc. Excellent fournisseur IPTV Maroc.",
+        "rating": "5"
+      },
+      "8": {
+        "name": "Hassan A.",
+        "location": "Fès",
+        "text": "Formule Confort 6 mois au meilleur prix. +48 000 chaînes et VOD incluses. Support WhatsApp réactif à toute heure. Vraiment le meilleur IPTV Maroc du marché.",
+        "rating": "5"
+      },
+      "9": {
+        "name": "Salma K.",
+        "location": "Agadir",
+        "text": "Ma mère à Agadir et moi à Lyon partageons le même abonnement IPTV Maroc sur 3 appareils. Qualité 4K impeccable et recharge IPTV Maroc instantanée.",
+        "rating": "5"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ IPTV Maroc",
+    "title": "Questions fréquentes sur l'IPTV Maroc",
+    "items": {
+      "1": {
+        "q": "Qu'est-ce que l'IPTV Maroc Mozaic.ma ?",
+        "a": "Mozaic.ma est un service d'<abonnement>abonnement IPTV Maroc</abonnement> qui vous donne accès à +48 000 chaînes marocaines et internationales en streaming. Al Aoula, 2M, Arryadia, beIN Sports et bien plus en IPTV HD Maroc et IPTV 4K Maroc, au Maroc comme depuis l'étranger."
+      },
+      "2": {
+        "q": "Comment acheter IPTV Maroc ?",
+        "a": "Pour acheter IPTV Maroc, choisissez votre formule sur cette page puis contactez-nous sur WhatsApp. Notre <fournisseur>fournisseur IPTV Maroc</fournisseur> confirme votre commande et active votre <abonnement>abonnement IPTV Maroc</abonnement> en quelques minutes, avec un guide d'installation personnalisé."
+      },
+      "3": {
+        "q": "Comment faire la recharge IPTV Maroc sur Smart TV ?",
+        "a": "Après votre recharge IPTV Maroc, notre <fournisseur>fournisseur IPTV Maroc</fournisseur> vous envoie les identifiants et un tutoriel pas à pas pour Samsung, LG ou Android TV. L'installation prend généralement moins de 10 minutes. Support disponible 24h/24 en français."
+      },
+      "4": {
+        "q": "Pourquoi Mozaic.ma est-il le meilleur fournisseur IPTV Maroc ?",
+        "a": "Mozaic.ma est reconnu comme le <meilleur>meilleur IPTV Maroc</meilleur> et comme <fournisseur>fournisseur IPTV Maroc</fournisseur> premium grâce à nos serveurs OTT dédiés, la technologie anti-freeze 2.2 et une disponibilité de 99,9 %. Résultat : un IPTV HD Maroc et IPTV 4K Maroc sans buffering, même pendant les grands matchs."
+      },
+      "5": {
+        "q": "Quelle connexion pour l'IPTV HD Maroc et l'IPTV 4K Maroc ?",
+        "a": "Pour profiter pleinement de votre <abonnement>abonnement IPTV Maroc</abonnement>, prévoyez 10 Mbps minimum pour l'IPTV HD Maroc et 25 Mbps recommandés pour l'IPTV 4K Maroc. Le service fonctionne en Wi-Fi, fibre ou 4G/5G, au Maroc et dans toute la diaspora."
+      },
+      "6": {
+        "q": "L'abonnement IPTV Maroc fonctionne-t-il depuis l'étranger ?",
+        "a": "Oui. Notre <abonnement>abonnement IPTV Maroc</abonnement> est conçu pour la diaspora : France, Belgique, Espagne, Pays-Bas, Canada… Où que vous soyez, retrouvez vos chaînes marocaines comme à la maison grâce au <meilleur>meilleur IPTV Maroc</meilleur> pour les expatriés."
+      },
+      "7": {
+        "q": "Sur quels appareils fonctionne l'IPTV Maroc ?",
+        "a": "Notre <abonnement>abonnement IPTV Maroc</abonnement> est compatible Smart TV (Samsung, LG, Sony), Android TV, Fire Stick, box Android, iPhone, iPad et PC. Notre <fournisseur>fournisseur IPTV Maroc</fournisseur> vous envoie un guide d'installation adapté à votre appareil après activation."
+      },
+      "8": {
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "Pour acheter IPTV Maroc ou effectuer une recharge IPTV Maroc, contactez-nous sur WhatsApp. Nous acceptons virement bancaire, paiement mobile et autres solutions adaptées au Maroc et à la diaspora. Activation immédiate après confirmation."
+      },
+      "9": {
+        "q": "La VOD est-elle incluse dans l'abonnement IPTV Maroc ?",
+        "a": "Oui. Chaque <abonnement>abonnement IPTV Maroc</abonnement> inclut +180 000 films et séries en VOD, en plus de +48 000 chaînes live en IPTV HD Maroc et IPTV 4K Maroc. Le <meilleur>meilleur IPTV Maroc</meilleur> réunit télévision et cinéma sur un seul compte."
+      },
+      "10": {
+        "q": "Puis-je utiliser mon abonnement sur plusieurs écrans ?",
+        "a": "Oui. Nos formules permettent l'installation sur 3 appareils (salon, chambre, mobile). Votre <abonnement>abonnement IPTV Maroc</abonnement> couvre toute la famille sans abonnement supplémentaire. Notre <fournisseur>fournisseur IPTV Maroc</fournisseur> configure chaque écran sur demande."
+      },
+      "11": {
+        "q": "Proposez-vous un remboursement si le service ne me convient pas ?",
+        "a": "Mozaic.ma s'engage en tant que <fournisseur>fournisseur IPTV Maroc</fournisseur> transparent. Consultez notre page Remboursement et retour pour les conditions. Notre support WhatsApp reste disponible pour résoudre tout problème technique avant toute demande de remboursement."
+      },
+      "12": {
+        "q": "Puis-je regarder la Coupe du Monde 2026 en IPTV 4K Maroc ?",
+        "a": "Absolument. Mozaic.ma est le <meilleur>meilleur IPTV Maroc</meilleur> pour le Mondial 2026 : tous les matchs en IPTV 4K Maroc, chaînes sportives internationales et retransmissions marocaines. Activez votre <abonnement>abonnement IPTV Maroc</abonnement> dès maintenant pour ne rien manquer."
+      }
+    }
+  },
+  "seoCities": {
+    "label": "Couverture nationale & diaspora",
+    "title": "IPTV Maroc disponible dans votre ville",
+    "description": "Mozaic.ma couvre tout le Maroc et la diaspora marocaine. Retrouvez vos chaînes préférées en Full HD et 4K, où que vous habitiez.",
+    "moroccoLabel": "Villes du Maroc",
+    "diasporaLabel": "Diaspora marocaine",
+    "hubCta": "Voir toutes les villes IPTV Maroc",
+    "cities": {
+      "casablanca": {
+        "name": "IPTV Maroc Casablanca",
+        "text": "À Casablanca, regardez Al Aoula, 2M, Arryadia et +48 000 chaînes en direct. Activation rapide via WhatsApp, support 24h/24."
+      },
+      "rabat": {
+        "name": "IPTV Maroc Rabat",
+        "text": "À Rabat et Salé, profitez de l'IPTV Maroc premium : sport, info, culture et VOD sur Smart TV, box et mobile."
+      },
+      "marrakech": {
+        "name": "IPTV Maroc Marrakech",
+        "text": "À Marrakech, accédez à toutes les chaînes marocaines et internationales en Full HD/4K sans parabole ni coupure."
+      },
+      "fes": {
+        "name": "IPTV Maroc Fès",
+        "text": "À Fès et sa région, Mozaic.ma vous connecte à la télévision du Maroc avec une installation simple et un support en français."
+      },
+      "tangier": {
+        "name": "IPTV Maroc Tanger",
+        "text": "À Tanger et Tétouan, suivez le foot, les JT et vos émissions marocaines préférées en streaming stable."
+      },
+      "agadir": {
+        "name": "IPTV Maroc Agadir",
+        "text": "À Agadir et le Souss, regardez vos chaînes marocaines en 4K sur tous vos écrans avec un abonnement dès 149 MAD."
+      },
+      "meknes": {
+        "name": "IPTV Maroc Meknès",
+        "text": "À Meknès, bénéficiez d'un IPTV Maroc fiable : +48 000 flux TV, VOD et assistance technique 7j/7."
+      },
+      "oujda": {
+        "name": "IPTV Maroc Oujda",
+        "text": "À Oujda et l'Oriental, retrouvez Al Aoula, 2M et les chaînes du Maghreb en qualité Full HD."
+      },
+      "kenitra": {
+        "name": "IPTV Maroc Kénitra",
+        "text": "À Kénitra, activez votre abonnement IPTV Maroc en quelques minutes et regardez sur salon, chambre et mobile."
+      },
+      "tetouan": {
+        "name": "IPTV Maroc Tétouan",
+        "text": "À Tétouan, Mozaic.ma propose un catalogue premium de chaînes marocaines et internationales sans engagement long."
+      },
+      "paris": {
+        "name": "IPTV Maroc Paris",
+        "text": "À Paris et en Île-de-France, les Marocains retrouvent leurs chaînes du pays : CAN, Ramadan, JT et séries en direct."
+      },
+      "lyon": {
+        "name": "IPTV Maroc Lyon",
+        "text": "À Lyon et dans le Rhône, suivez la télé marocaine depuis la France avec un service stable et un support WhatsApp."
+      },
+      "brussels": {
+        "name": "IPTV Maroc Bruxelles",
+        "text": "À Bruxelles et en Belgique, Mozaic.ma permet de regarder Al Aoula, 2M et Arryadia comme au Maroc."
+      },
+      "madrid": {
+        "name": "IPTV Maroc Madrid",
+        "text": "À Madrid et en Espagne, accédez à l'IPTV Maroc premium pour ne rien manquer du sport et de l'actualité marocaine."
+      },
+      "barcelona": {
+        "name": "IPTV Maroc Barcelone",
+        "text": "À Barcelone et en Catalogne, profitez de +48 000 chaînes et d'une VOD colossale sur tous vos appareils."
+      },
+      "amsterdam": {
+        "name": "IPTV Maroc Amsterdam",
+        "text": "À Amsterdam et aux Pays-Bas, regardez la télévision marocaine en Full HD avec activation immédiate."
+      },
+      "montreal": {
+        "name": "IPTV Maroc Montréal",
+        "text": "À Montréal et au Canada, la diaspora marocaine suit ses chaînes préférées grâce à Mozaic.ma."
+      },
+      "toronto": {
+        "name": "IPTV Maroc Toronto",
+        "text": "À Toronto et en Ontario, bénéficiez d'un IPTV Maroc adapté aux Marocains résidant à l'étranger."
+      }
+    }
+  },
+  "wheel": {
+    "badge": "Coupe du Monde 2026",
+    "label": "Jeu concours",
+    "title": "Tournez la roue de la fortune",
+    "sectionLabel": "Grand Jeu Coupe du Monde 2026 — meilleur IPTV Maroc Mozaic.ma",
+    "popupTitle": "⚽ GRAND JEU COUPE DU MONDE 2026 — Gagnez votre abonnement IPTV Maroc !",
+    "popupSubtitle": "Tournez la roue et remportez un abonnement IPTV Maroc premium pour suivre tous les matchs en direct.",
+    "rules": "Tentez votre chance : 1 à 12 mois d'abonnement IPTV Maroc, activation d'application ou codes exclusifs. Prêt à acheter IPTV Maroc après votre gain ? Notre équipe WhatsApp vous accompagne.",
+    "description": "Tentez votre chance et gagnez un abonnement IPTV, une activation d'application ou un code promo exclusif.",
+    "wheelAlt": "Roue de la fortune IPTV Maroc — Grand Jeu Coupe du Monde 2026 Mozaic.ma",
+    "footballAlt": "Ballon de foot Coupe du Monde 2026 — jeu concours IPTV Maroc",
+    "spin": "Tourner la roue",
+    "spinning": "La roue tourne...",
+    "hint": "Tour gratuit · Service IPTV Maroc premium · Réclamation via WhatsApp",
+    "winTitle": "But ! Vous avez gagné !",
+    "loseTitle": "Pas de but cette fois",
+    "winMessage": "Votre cadeau : {prize}. Utilisez ce code pour activer votre abonnement IPTV Maroc dès maintenant.",
+    "winUpgrade": "Vous souhaitez acheter IPTV Maroc ou faire une recharge IPTV Maroc plus longue ? Contactez notre fournisseur IPTV Maroc sur WhatsApp à tout moment.",
+    "loseMessage": "Pas de chance pour ce match… Revenez tenter votre chance pour gagner un accès IPTV Maroc premium.",
+    "promoLabel": "Votre code promo CDM 2026",
+    "claimWhatsApp": "Réclamer via WhatsApp",
+    "claimGiftWhatsApp": "Réclamer mon cadeau sur WhatsApp",
+    "copyCode": "Copier le code",
+    "copied": "Code copié !",
+    "tryAgain": "Réessayer au prochain match",
+    "close": "Fermer",
+    "whatsappMessage": "Bonjour, j'ai gagné « {prize} » au Grand Jeu Coupe du Monde 2026 sur {site} (IPTV Maroc). Mon code : {code}. Je souhaite réclamer mon cadeau.",
+    "prizes": {
+      "1month": "1 Mois d'abonnement",
+      "3months": "3 Mois d'abonnement",
+      "6months": "6 Mois d'abonnement",
+      "12months": "12 Mois d'abonnement",
+      "activation": "Activation d'application",
+      "noLuck": "Pas de chance — Essayez au prochain match"
+    },
+    "prizeLabels": {
+      "1month": "1 Mois\nd'abonnement",
+      "3months": "3 Mois\nd'abonnement",
+      "6months": "6 Mois\nd'abonnement",
+      "12months": "12 Mois\nd'abonnement",
+      "activation": "Activation\nd'application",
+      "noLuck": "Pas de chance\nProchain match"
+    }
+  },
+  "cta": {
+    "title": "Prêt à acheter IPTV Maroc ?",
+    "subtitle": "Contactez votre fournisseur IPTV Maroc sur WhatsApp pour une activation immédiate. Recharge IPTV Maroc en quelques minutes, support 24h/24 en français.",
+    "button": "Acheter IPTV Maroc — WhatsApp"
+  },
+  "footer": {
+    "tagline": "IPTV Maroc — IPTV 4K Maroc & IPTV HD Maroc",
+    "seoAbout": "Mozaic.ma est le premier fournisseur IPTV Maroc pour les Marocains au pays et dans la diaspora. Abonnement IPTV Maroc, recharge IPTV Maroc instantanée et +48 000 chaînes en qualité premium.",
+    "rights": "Tous droits réservés.",
+    "location": "Maroc & Diaspora",
+    "contact": "Contact",
+    "hours": "Disponible 24h/24, 7j/7",
+    "commercial": "Pages utiles",
+    "legal": "Informations légales",
+    "local": "IPTV Maroc par ville",
+    "allCities": "Toutes les villes",
+    "sitemap": "Plan du site"
+  },
+  "pages": {
+    "tarif": {
+      "metaTitle": "Tarifs IPTV Maroc — Acheter & Recharger | Mozaic.ma",
+      "metaDescription": "Acheter IPTV Maroc et recharge IPTV Maroc instantanée. Formules 3, 6 et 12 mois dès 149 MAD. Fournisseur IPTV Maroc premium.",
+      "eyebrow": "Abonnement IPTV Maroc",
+      "title": "Tarifs pour acheter IPTV Maroc",
+      "description": "Choisissez votre formule et profitez d'une recharge IPTV Maroc activée en quelques minutes. Toutes nos offres incluent IPTV HD Maroc, IPTV 4K Maroc et +48 000 chaînes.",
+      "seoBody": "Comparer les offres IPTV Maroc avant d'acheter est essentiel : Mozaic.ma propose trois formules transparentes sans frais cachés. Chaque abonnement IPTV Maroc inclut l'activation WhatsApp, le support fournisseur IPTV Maroc 24h/24 et l'accès complet au catalogue IPTV 4K Maroc. Que vous cherchiez une première expérience ou une recharge IPTV Maroc annuelle, nos tarifs s'adaptent à votre budget.",
+      "highlightsTitle": "Ce qui est inclus dans chaque formule",
+      "highlights": [
+        "+48 000 chaînes marocaines et internationales",
+        "IPTV HD Maroc et IPTV 4K Maroc",
+        "VOD films et séries mise à jour",
+        "Technologie anti-freeze 2.2",
+        "Support WhatsApp 24h/24 en français",
+        "Activation en moins de 5 minutes",
+        "Compatible Smart TV, Android, Fire Stick",
+        "Recharge IPTV Maroc sans changer d'identifiants"
+      ],
+      "stepsTitle": "Comment acheter IPTV Maroc en 3 étapes",
+      "steps": [
+        {
+          "title": "Choisissez votre formule",
+          "text": "Sélectionnez Découverte (3 mois), Confort (6 mois) ou Master (12 mois) selon vos besoins. Toutes incluent le catalogue complet IPTV Maroc."
+        },
+        {
+          "title": "Commandez sur WhatsApp",
+          "text": "Cliquez sur Commander par WhatsApp, indiquez votre formule et votre appareil. Notre fournisseur IPTV Maroc confirme et guide le paiement."
+        },
+        {
+          "title": "Regardez en quelques minutes",
+          "text": "Recevez vos identifiants, suivez le guide d'installation et profitez du meilleur IPTV Maroc sur tous vos écrans."
+        }
+      ]
+    },
+    "faq": {
+      "metaTitle": "FAQ IPTV Maroc — Questions fréquentes | Mozaic.ma",
+      "metaDescription": "Réponses sur l'abonnement IPTV Maroc : acheter IPTV Maroc, recharge IPTV Maroc, installation Smart TV et support fournisseur IPTV Maroc.",
+      "eyebrow": "FAQ IPTV Maroc",
+      "title": "Questions fréquentes sur l'IPTV Maroc",
+      "description": "Tout savoir pour acheter IPTV Maroc, renouveler votre recharge IPTV Maroc et profiter du meilleur IPTV Maroc sur tous vos écrans.",
+      "seoBody": "Cette FAQ IPTV Maroc répond aux questions les plus posées par nos abonnés au Maroc et en diaspora : achat, installation Smart TV, qualité IPTV HD Maroc, IPTV 4K Maroc et renouvellement. Si vous ne trouvez pas votre réponse, contactez notre fournisseur IPTV Maroc sur WhatsApp."
+    },
+    "city": {
+      "intro": "Mozaic.ma est le fournisseur IPTV Maroc de référence pour cette zone : activation rapide, +48 000 chaînes, IPTV 4K Maroc et support WhatsApp en français. Commandez votre abonnement IPTV Maroc en quelques minutes.",
+      "linksTitle": "Ressources utiles",
+      "relatedTitle": "IPTV Maroc dans les villes proches",
+      "ctaTitle": "Activez votre IPTV Maroc maintenant",
+      "ctaText": "Choisissez votre formule et recevez vos identifiants en moins de 5 minutes via WhatsApp.",
+      "ctaButton": "Commander sur WhatsApp",
+      "links": {
+        "pricing": "Voir les tarifs IPTV Maroc",
+        "guide": "Guide d'installation",
+        "faq": "FAQ abonnement IPTV Maroc",
+        "blog": "Blog & conseils IPTV Maroc"
+      }
+    },
+    "local": {
+      "metaTitle": "IPTV Maroc par ville — Casablanca, Rabat, Paris | Mozaic.ma",
+      "metaDescription": "Abonnement IPTV Maroc disponible dans toutes les grandes villes du Maroc et de la diaspora : Casablanca, Rabat, Marrakech, Paris, Bruxelles, Montréal et plus.",
+      "eyebrow": "SEO local IPTV Maroc",
+      "title": "IPTV Maroc disponible dans votre ville",
+      "description": "Mozaic.ma couvre le Maroc et la diaspora marocaine. Choisissez votre ville pour découvrir notre offre IPTV 4K Maroc locale.",
+      "intro": "Que vous soyez à Casablanca, Rabat, Paris ou Montréal, Mozaic.ma vous connecte à +48 000 chaînes marocaines et internationales. Sélectionnez votre ville pour accéder à une page dédiée avec guide d'installation, tarifs et support WhatsApp en français.",
+      "cardLink": "Voir l'offre locale"
+    },
+    "contact": {
+      "metaTitle": "Contactez-nous — Fournisseur IPTV Maroc | Mozaic.ma",
+      "metaDescription": "Contactez Mozaic.ma, votre fournisseur IPTV Maroc. Support WhatsApp 24h/24 pour acheter IPTV Maroc, recharge IPTV Maroc et assistance technique.",
+      "eyebrow": "Support IPTV Maroc",
+      "title": "Contactez votre fournisseur IPTV Maroc",
+      "description": "Notre équipe marocaine vous répond en français sur WhatsApp et par e-mail. Activation rapide, aide à l'installation et conseils pour IPTV 4K Maroc.",
+      "whatsappTitle": "WhatsApp — réponse rapide",
+      "whatsappText": "Le moyen le plus rapide pour acheter IPTV Maroc ou demander une recharge IPTV Maroc.",
+      "emailTitle": "E-mail",
+      "form": {
+        "name": "Nom complet",
+        "email": "Adresse e-mail",
+        "subject": "Sujet",
+        "message": "Votre message",
+        "submit": "Envoyer via WhatsApp",
+        "subjects": {
+          "abonnement": "Acheter un abonnement IPTV Maroc",
+          "recharge": "Recharge IPTV Maroc",
+          "installation": "Aide à l'installation",
+          "autre": "Autre demande"
+        }
+      }
+    },
+    "guide": {
+      "metaTitle": "Guide installation IPTV Maroc — Smart TV & Android | Mozaic.ma",
+      "metaDescription": "Guide pas à pas pour installer votre abonnement IPTV Maroc sur Smart TV, Android, Fire Stick et box. Support fournisseur IPTV Maroc inclus.",
+      "eyebrow": "Installation IPTV Maroc",
+      "title": "Guide d'installation IPTV Maroc",
+      "description": "Suivez ces étapes pour configurer votre abonnement IPTV Maroc sur tous vos appareils. Besoin d'aide ? Notre fournisseur IPTV Maroc vous accompagne sur WhatsApp."
+    },
+    "features": {
+      "metaTitle": "Fonctionnalités IPTV Maroc — IPTV 4K & HD | Mozaic.ma",
+      "metaDescription": "Découvrez pourquoi Mozaic.ma est le meilleur IPTV Maroc : IPTV 4K Maroc, IPTV HD Maroc stable, +48 000 chaînes et support premium.",
+      "eyebrow": "Fournisseur IPTV Maroc",
+      "title": "Fonctionnalités du meilleur IPTV Maroc",
+      "description": "Stabilité anti-freeze, qualité IPTV 4K Maroc et IPTV HD Maroc, catalogue premium et assistance 24h/24 — tout ce qu'attend un abonné IPTV Maroc exigeant."
+    },
+    "sitemap": {
+      "metaTitle": "Plan du site | Mozaic.ma — IPTV Maroc",
+      "metaDescription": "Plan du site Mozaic.ma : tarifs, FAQ, blog, guide d'installation, contact et pages légales du fournisseur IPTV Maroc.",
+      "eyebrow": "Navigation",
+      "title": "Plan du site",
+      "description": "Retrouvez l'ensemble des pages de Mozaic.ma, fournisseur IPTV Maroc."
+    },
+    "blog": {
+      "metaTitle": "Blog IPTV Maroc — Guides & Conseils SEO | Mozaic.ma",
+      "metaDescription": "Blog IPTV Maroc : guides pour acheter IPTV Maroc, recharge IPTV Maroc, IPTV 4K Maroc et choisir le meilleur fournisseur IPTV Maroc.",
+      "eyebrow": "Blog IPTV Maroc",
+      "title": "Blog IPTV Maroc — Guides & actualités",
+      "description": "Conseils d'experts pour choisir le meilleur IPTV Maroc, acheter un abonnement IPTV Maroc et profiter de l'IPTV 4K Maroc en toute sérénité.",
+      "intro": "Retrouvez nos articles sur l'abonnement IPTV Maroc : comparatifs, guides d'achat, astuces IPTV HD Maroc et IPTV 4K Maroc, et conseils pour choisir un fournisseur IPTV Maroc fiable au Maroc et en diaspora."
+    }
+  }
+}
