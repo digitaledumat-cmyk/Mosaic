@@ -2,18 +2,14 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildPageMeta } from "./seo";
 
-export async function initPageLocale(params: Promise<{ locale: string }>) {
-  const { locale } = await params;
-  setRequestLocale(locale);
-  return locale;
+const LOCALE = "fr";
+
+export async function initPageLocale() {
+  setRequestLocale(LOCALE);
 }
 
-export async function buildPageMetadata(
-  namespace: string,
-  locale: string,
-  path: string,
-): Promise<Metadata> {
-  const t = await getTranslations({ locale, namespace });
+export async function buildPageMetadata(namespace: string, path: string): Promise<Metadata> {
+  const t = await getTranslations({ locale: LOCALE, namespace });
 
   return buildPageMeta({
     title: t("metaTitle"),
