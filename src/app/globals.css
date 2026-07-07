@@ -95,6 +95,10 @@ body {
   @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#128C7E] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0f7a6e];
 }
 
+.btn-whatsapp-cta {
+  @apply inline-flex items-center justify-center gap-2.5 rounded-2xl bg-[#2d7a31] px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-[#256b29] active:scale-[0.98];
+}
+
 /* Hero — rouge du drapeau marocain */
 .hero-bg {
   background:

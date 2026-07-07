@@ -3,10 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { WHATSAPP_URL } from "@/lib/constants";
 import { legalRoutes } from "@/lib/site-routes";
 import Logo from "./Logo";
-import { WhatsAppMark } from "./WhatsAppIcon";
+import HeaderWhatsAppCta from "./HeaderWhatsAppCta";
 
 const navLinks = [
   { href: "/" as const, labelKey: "home" as const },
@@ -107,26 +106,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <div className="hidden items-center gap-2 sm:flex">
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary !py-2.5 text-xs"
-            >
-              {t("subscribe")}
-            </a>
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-whatsapp !p-2.5"
-              aria-label={t("whatsapp")}
-              title={t("whatsapp")}
-            >
-              <WhatsAppMark className="h-5 w-5" />
-            </a>
-          </div>
+          <HeaderWhatsAppCta label={t("trialCta")} className="hidden sm:inline-flex" />
           <button
             type="button"
             className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/20 text-white lg:hidden"
@@ -173,28 +153,11 @@ export default function Header() {
               Plan du site
             </Link>
 
-            <div className="mt-2 flex gap-2">
-              <a
-                href={WHATSAPP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary flex-1"
-                onClick={() => setOpen(false)}
-              >
-                {t("subscribe")}
-              </a>
-              <a
-                href={WHATSAPP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-whatsapp !px-4"
-                aria-label={t("whatsapp")}
-                title={t("whatsapp")}
-                onClick={() => setOpen(false)}
-              >
-                <WhatsAppMark className="h-5 w-5" />
-              </a>
-            </div>
+            <HeaderWhatsAppCta
+              label={t("trialCta")}
+              className="mt-2 w-full"
+              onClick={() => setOpen(false)}
+            />
           </nav>
         </div>
       )}
