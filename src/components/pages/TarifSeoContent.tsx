@@ -29,7 +29,7 @@ export default async function TarifSeoContent() {
         <h2 className="mb-4 font-display text-xl font-bold text-white">{t("stepsTitle")}</h2>
         <ol className="space-y-4">
           {steps.map((step, index) => (
-            <li key={step.title} className="surface-card !bg-ma-green">
+            <li key={step.title} className="surface-card">
               <span className="mb-2 inline-flex h-7 w-7 items-center justify-center rounded-full bg-ma-red text-sm font-bold text-white">
                 {index + 1}
               </span>

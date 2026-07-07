@@ -46,7 +46,7 @@ export default async function LocalHubPage({
                 <Link
                   key={city}
                   href={`/iptv-maroc/${city}`}
-                  className="surface-card !bg-ma-green transition hover:border-ma-red/40"
+                  className="surface-card transition hover:border-ma-red/40"
                 >
                   <h3 className="font-display text-base font-bold text-white">
                     {tCities(`cities.${city}.name`)}

@@ -25,7 +25,7 @@ export default async function GuideInstallationPage({
     <PageShell eyebrow={t("eyebrow")} title={t("title")} description={t("description")} path="/guide-installation">
       <div className="mx-auto max-w-3xl space-y-6">
         {installationGuides.map((guide) => (
-          <section key={guide.id} className="surface-card !bg-ma-green">
+          <section key={guide.id} className="surface-card">
             <h2 className="mb-4 font-display text-xl font-bold text-white">{guide.title}</h2>
             <ol className="space-y-3">
               {guide.steps.map((step, i) => (

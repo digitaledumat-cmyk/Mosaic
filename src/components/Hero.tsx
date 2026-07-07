@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { WHATSAPP_URL } from "@/lib/constants";
 import Logo from "./Logo";
+import { WhatsAppMark } from "./WhatsAppIcon";
 
 const liveChannels = [
   "Al Aoula",
@@ -29,7 +30,7 @@ export default function Hero() {
       <div className="site-container relative section-block">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="animate-in">
-            <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs font-semibold tracking-widest text-white uppercase backdrop-blur-sm">
+            <span className="glass-crystal mb-5 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold tracking-widest text-white uppercase">
               <span className="h-1.5 w-1.5 rounded-full bg-ma-green-accent" />
               {t("badge")}
             </span>
@@ -47,7 +48,8 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-whatsapp btn-whatsapp-pulse">
+                <WhatsAppMark className="h-5 w-5 shrink-0" />
                 {t("cta")}
               </a>
               <a href="#pricing" className="btn-outline">
@@ -56,7 +58,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="animate-in overflow-hidden rounded-2xl border border-white/15 bg-ma-green shadow-2xl">
+          <div className="hero-glass-panel animate-in overflow-hidden rounded-2xl">
             <div className="flex items-center justify-between border-b border-white/10 px-5 py-3.5">
               <Logo className="text-base text-white" light />
               <span className="flex items-center gap-1.5 text-xs text-red-200">

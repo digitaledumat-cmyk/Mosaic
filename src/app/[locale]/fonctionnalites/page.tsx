@@ -26,7 +26,7 @@ export default async function FonctionnalitesPage({
       <PageShell eyebrow={t("eyebrow")} title={t("title")} description={t("description")} path="/fonctionnalites">
         <div className="mx-auto grid max-w-5xl gap-4 sm:grid-cols-2">
           {featuresHighlights.map((item) => (
-            <article key={item.title} className="surface-card !bg-ma-green">
+            <article key={item.title} className="surface-card">
               <h2 className="mb-2 font-display text-lg font-bold text-white">{item.title}</h2>
               <p className="text-sm leading-relaxed text-muted">{item.description}</p>
             </article>

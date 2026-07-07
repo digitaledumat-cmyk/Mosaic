@@ -13,6 +13,12 @@
   --white: #ffffff;
   --muted: #dce9e3;
   --muted-soft: #c8dbd2;
+  --whatsapp: #25d366;
+  --whatsapp-dark: #1da851;
+  --whatsapp-glow: rgba(37, 211, 102, 0.45);
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-highlight: rgba(255, 255, 255, 0.12);
 }
 
 @theme inline {
@@ -37,7 +43,9 @@
 }
 
 body {
-  background: var(--ma-green-dark);
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(37, 211, 102, 0.08), transparent),
+    var(--ma-green-dark);
   color: var(--white);
   font-family: var(--font-inter), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -68,11 +76,35 @@ body {
 }
 
 .surface-card {
-  @apply rounded-2xl border border-white/10 bg-ma-green p-6 shadow-sm md:p-7;
+  @apply rounded-2xl border p-6 shadow-lg md:p-7;
+  background: rgba(0, 98, 51, 0.52);
+  border-color: var(--glass-border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.18),
+    inset 0 1px 0 var(--glass-highlight);
+}
+
+.glass-crystal {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 var(--glass-highlight);
 }
 
 .surface-card-red {
-  @apply rounded-2xl border border-white/15 bg-ma-red p-6 text-white shadow-sm md:p-7;
+  @apply rounded-2xl border p-6 text-white shadow-lg md:p-7;
+  background: rgba(193, 39, 45, 0.75);
+  border-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow:
+    0 8px 28px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .btn-primary {
@@ -84,7 +116,16 @@ body {
 }
 
 .btn-outline {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-white/25 bg-transparent px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10;
+  @apply inline-flex items-center justify-center gap-2 rounded-2xl border px-6 py-3.5 text-sm font-semibold text-white transition;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .btn-outline-dark {
@@ -92,20 +133,87 @@ body {
 }
 
 .btn-whatsapp {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#128C7E] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0f7a6e];
+  @apply inline-flex items-center justify-center gap-2.5 rounded-2xl px-7 py-3.5 text-sm font-bold text-white transition;
+  background: linear-gradient(135deg, #2ee672 0%, var(--whatsapp) 45%, var(--whatsapp-dark) 100%);
+  box-shadow:
+    0 4px 24px var(--whatsapp-glow),
+    0 2px 8px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.btn-whatsapp:hover {
+  background: linear-gradient(135deg, #3ef080 0%, #2ee672 50%, var(--whatsapp) 100%);
+  box-shadow:
+    0 8px 32px rgba(37, 211, 102, 0.55),
+    0 4px 12px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
 }
 
 .btn-whatsapp-cta {
-  @apply inline-flex items-center justify-center gap-2.5 rounded-2xl bg-[#2d7a31] px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-[#256b29] active:scale-[0.98];
+  @apply inline-flex items-center justify-center gap-2.5 rounded-2xl px-5 py-3 text-sm font-bold text-white transition active:scale-[0.98];
+  background: linear-gradient(135deg, #2ee672 0%, var(--whatsapp) 50%, var(--whatsapp-dark) 100%);
+  box-shadow:
+    0 4px 16px var(--whatsapp-glow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-/* Hero — rouge du drapeau marocain */
+.btn-whatsapp-cta:hover {
+  background: linear-gradient(135deg, #3ef080 0%, #2ee672 100%);
+  box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5);
+  transform: translateY(-1px);
+}
+
+/* Hero — rouge du drapeau marocain + reflets cristal */
 .hero-bg {
   background:
-    radial-gradient(ellipse 60% 50% at 80% 20%, rgba(0, 98, 51, 0.15), transparent),
-    radial-gradient(ellipse 50% 40% at 20% 80%, rgba(0, 98, 51, 0.1), transparent),
+    radial-gradient(ellipse 70% 60% at 90% 10%, rgba(37, 211, 102, 0.12), transparent),
+    radial-gradient(ellipse 50% 40% at 10% 90%, rgba(255, 255, 255, 0.06), transparent),
+    radial-gradient(ellipse 60% 50% at 80% 20%, rgba(0, 98, 51, 0.18), transparent),
+    radial-gradient(ellipse 50% 40% at 20% 80%, rgba(0, 98, 51, 0.12), transparent),
     linear-gradient(165deg, var(--ma-red) 0%, var(--ma-red-dark) 100%);
   color: var(--white);
+}
+
+.hero-glass-panel {
+  background: rgba(0, 65, 36, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.surface-card-dark {
+  @apply rounded-2xl border p-6 shadow-lg md:p-7;
+  background: rgba(0, 41, 24, 0.62);
+  border-color: var(--glass-border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 var(--glass-highlight);
+}
+
+@keyframes whatsapp-glow-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 4px 24px var(--whatsapp-glow),
+      0 2px 8px rgba(0, 0, 0, 0.15),
+      inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    box-shadow:
+      0 6px 36px rgba(37, 211, 102, 0.62),
+      0 4px 12px rgba(0, 0, 0, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+}
+
+.btn-whatsapp-pulse {
+  animation: whatsapp-glow-pulse 2.8s ease-in-out infinite;
 }
 
 .grid-pattern-flag {

@@ -44,7 +44,7 @@ export default function Header() {
   }, [moreOpen]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-ma-green-dark/95 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-white/15 bg-ma-green-dark/75 shadow-lg shadow-black/10 backdrop-blur-xl">
       <div className="site-container flex h-16 items-center justify-between gap-4">
         <Link href="/" className="text-lg text-white">
           <Logo light />

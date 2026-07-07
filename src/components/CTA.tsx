@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { WHATSAPP_URL, EMAIL } from "@/lib/constants";
+import { WhatsAppMark } from "./WhatsAppIcon";
 
 export default function CTA() {
   const t = useTranslations("cta");
@@ -18,8 +19,9 @@ export default function CTA() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-whatsapp mt-8"
+            className="btn-whatsapp btn-whatsapp-pulse mt-8"
           >
+            <WhatsAppMark className="h-5 w-5 shrink-0" />
             {t("button")}
           </a>
           <p className="mt-4 text-sm text-white/85">{EMAIL}</p>

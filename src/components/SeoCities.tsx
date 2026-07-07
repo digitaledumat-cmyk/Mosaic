@@ -20,7 +20,7 @@ export default function SeoCities() {
           </h3>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {SEO_CITY_GROUPS.morocco.map((city) => (
-              <article key={city} className="surface-card !bg-ma-green">
+              <article key={city} className="surface-card">
                 <h4 className="mb-2 font-display text-base font-bold text-white">
                   <Link href={`/iptv-maroc/${city}`} className="transition hover:text-ma-red-light">
                     {t(`cities.${city}.name`)}
@@ -40,7 +40,7 @@ export default function SeoCities() {
           </h3>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {SEO_CITY_GROUPS.diaspora.map((city) => (
-              <article key={city} className="surface-card !bg-ma-green">
+              <article key={city} className="surface-card">
                 <h4 className="mb-2 font-display text-base font-bold text-white">
                   <Link href={`/iptv-maroc/${city}`} className="transition hover:text-ma-red-light">
                     {t(`cities.${city}.name`)}
