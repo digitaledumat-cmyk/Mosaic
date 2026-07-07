@@ -1,0 +1,46 @@
+# Mozaic.ma
+
+> Mozaic.ma est un fournisseur IPTV Maroc premium. Le site présente des abonnements IPTV 4K et HD pour le Maroc et la diaspora marocaine, avec activation WhatsApp, support en français et plus de 48 000 chaînes.
+
+Mozaic.ma est un site commercial en français uniquement. Les visiteurs peuvent consulter les tarifs, commander un abonnement via WhatsApp, lire des guides d'installation et des articles de blog, et contacter le support. Les prix affichés sont en dirhams marocains (MAD).
+
+## Contact
+
+- E-mail : contact@mozaic.ma
+- WhatsApp : +212 664 140 211
+- Site : https://mozaic.ma
+- Langue du site : français
+- Zone couverte : Maroc et diaspora marocaine (Europe, Amérique du Nord)
+
+## Services
+
+- [Accueil](https://mozaic.ma/): Page principale — meilleur IPTV Maroc, IPTV 4K Maroc, Mondial 2026
+- [Tarifs](https://mozaic.ma/tarif): Formules Découverte (149 MAD / 3 mois), Confort (249 MAD / 6 mois), Master (399 MAD / 12 mois)
+- [Fonctionnalités](https://mozaic.ma/fonctionnalites): IPTV HD Maroc, anti-freeze, compatibilité Smart TV et box
+- [Guide d'installation](https://mozaic.ma/guide-installation): Configuration sur Smart TV, Android, Fire Stick et applications IPTV
+- [FAQ](https://mozaic.ma/faq): Questions sur l'abonnement, l'installation et le support
+- [Blog](https://mozaic.ma/blog): Guides et conseils IPTV Maroc
+- [Contact](https://mozaic.ma/contactez-nous): Support WhatsApp et e-mail 24h/24
+- [IPTV Maroc par ville](https://mozaic.ma/iptv-maroc): Pages locales (Casablanca, Rabat, Marrakech, Paris, Bruxelles, Montréal, etc.)
+
+## Ce que nous ne faisons pas
+
+- Nous ne sommes pas un opérateur télécom officiel ni un revendeur agréé de bouquets satellite traditionnels.
+- Nous ne garantissons pas l'accès à un contenu spécifique si un flux est indisponible côté source.
+- Nous ne proposons pas de support téléphonique ; l'assistance se fait via WhatsApp et e-mail.
+
+## Informations clés
+
+- [Plan du site](https://mozaic.ma/plan-du-site): Index de toutes les pages
+- [Sitemap](https://mozaic.ma/sitemap.xml): Plan XML pour l'exploration
+- [Robots](https://mozaic.ma/robots.txt): Règles d'exploration pour les robots
+
+## Optional
+
+- [Mentions légales](https://mozaic.ma/mentions-legales): Informations légales de l'éditeur
+- [Conditions d'utilisation](https://mozaic.ma/conditions-utilisation): Conditions générales du service
+- [Politique de confidentialité](https://mozaic.ma/politique-confidentialite): Traitement des données personnelles
+- [Politique d'utilisation acceptable](https://mozaic.ma/politique-utilisation-acceptable): Règles d'usage du service
+- [Conformité RGPD](https://mozaic.ma/conformite-rgpd): Droits des utilisateurs en Europe
+- [Politique DMCA](https://mozaic.ma/politique-dmca): Signalement de contenu
+- [Remboursement et retour](https://mozaic.ma/remboursement-et-retour): Politique de remboursement
