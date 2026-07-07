@@ -36,7 +36,7 @@ export default function Hero() {
 
             <h1 className="font-display text-4xl font-extrabold leading-tight tracking-tight text-white md:text-5xl lg:text-[3.25rem]">
               {t("title")}
-              <span className="mt-1 block text-ma-green-accent-soft">{t("titleAccent")}</span>
+              <span className="mt-1 block text-[#25D366]">{t("titleAccent")}</span>
             </h1>
 
             <p className="mt-6 max-w-lg text-base leading-relaxed text-white/85 md:text-lg">
