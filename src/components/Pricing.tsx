@@ -44,8 +44,8 @@ export default function Pricing() {
                   <span
                     className={`absolute -top-3 left-1/2 -translate-x-1/2 rounded-full px-3 py-1 text-[10px] font-bold tracking-wider uppercase ${
                       isMaster
-                        ? "bg-ma-red text-white"
-                        : "bg-ma-green-light text-white"
+                        ? "bg-ma-red-dark text-white"
+                        : "bg-ma-green text-white"
                     }`}
                   >
                     {badge ?? t("popular")}

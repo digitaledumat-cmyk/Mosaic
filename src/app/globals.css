@@ -15,6 +15,8 @@
   --muted-soft: #c8dbd2;
   --wa-green: #25d366;
   --wa-green-hover: #1fb855;
+  --wa-green-btn: #0d7a3f;
+  --wa-green-btn-hover: #0a6634;
   --crystal-border: rgba(255, 255, 255, 0.2);
   --crystal-surface: rgba(255, 255, 255, 0.1);
   --crystal-surface-strong: rgba(255, 255, 255, 0.14);
@@ -96,7 +98,7 @@ body {
 }
 
 .btn-green {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-ma-green-light px-6 py-3 text-sm font-semibold text-white transition hover:bg-ma-green;
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-ma-green px-6 py-3 text-sm font-semibold text-white transition hover:bg-ma-green-dark;
 }
 
 .btn-outline {
@@ -108,11 +110,11 @@ body {
 }
 
 .btn-whatsapp {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-6 py-3 text-sm font-bold text-white shadow-[0_4px_22px_rgba(37,211,102,0.45),inset_0_1px_0_rgba(255,255,255,0.25)] transition hover:scale-[1.02] hover:bg-[#1fb855] hover:shadow-[0_6px_28px_rgba(37,211,102,0.55)];
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--wa-green-btn)] px-6 py-3 text-sm font-bold text-white shadow-[0_4px_22px_rgba(13,122,63,0.45),inset_0_1px_0_rgba(255,255,255,0.2)] transition hover:scale-[1.02] hover:bg-[var(--wa-green-btn-hover)] hover:shadow-[0_6px_28px_rgba(13,122,63,0.55)];
 }
 
 .btn-whatsapp-cta {
-  @apply inline-flex items-center justify-center gap-2.5 rounded-2xl border border-white/20 bg-[#25D366] px-5 py-3 text-sm font-bold text-white shadow-[0_4px_18px_rgba(37,211,102,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] backdrop-blur-sm transition hover:scale-[1.02] hover:bg-[#1fb855] active:scale-[0.98];
+  @apply inline-flex items-center justify-center gap-2.5 rounded-2xl border border-white/25 bg-[var(--wa-green-btn)] px-5 py-3 text-sm font-bold text-white shadow-[0_4px_18px_rgba(13,122,63,0.4),inset_0_1px_0_rgba(255,255,255,0.15)] backdrop-blur-sm transition hover:scale-[1.02] hover:bg-[var(--wa-green-btn-hover)] active:scale-[0.98];
 }
 
 /* Hero — rouge du drapeau marocain + reflets cristal */
