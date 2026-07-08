@@ -170,7 +170,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Offre spéciale Mondial 2026",
         paragraphs: [
-          "Profitez de notre roue de la fortune avec des codes promo CDM2026 pour réduire votre abonnement IPTV Maroc. La formule Master 12 mois (399 MAD) couvre toute la compétition et l'année sportive à un tarif avantageux.",
+          "Pour le Mondial 2026, la formule Master 12 mois (399 MAD) couvre toute la compétition et l'année sportive au meilleur rapport qualité-prix. Contactez-nous sur WhatsApp pour activer votre abonnement IPTV Maroc en quelques minutes.",
         ],
       },
     ],
@@ -180,7 +180,7 @@ export const blogPosts: BlogPost[] = [
     title: "Recharge IPTV Maroc : comment renouveler son abonnement ?",
     metaTitle: "Recharge IPTV Maroc — Renouvellement rapide | Mozaic.ma",
     metaDescription:
-      "Recharge IPTV Maroc en quelques minutes via WhatsApp. Renouvelez votre abonnement IPTV Maroc sans perdre vos identifiants ni vos favoris.",
+      "Recharge IPTV Maroc en quelques minutes via WhatsApp. Renouvelez votre abonnement IPTV Maroc sans perdre vos identifiants ni favoris. Guide.",
     excerpt:
       "Votre abonnement arrive à expiration ? Voici comment effectuer une recharge IPTV Maroc rapide sans interruption de service.",
     publishedAt: "2026-06-12",
@@ -223,7 +223,7 @@ export const blogPosts: BlogPost[] = [
     title: "IPTV HD Maroc vs satellite : quel choix en 2026 ?",
     metaTitle: "IPTV HD Maroc vs satellite — Comparatif 2026 | Mozaic.ma",
     metaDescription:
-      "IPTV HD Maroc ou parabole satellite ? Comparatif prix, installation, chaînes et mobilité. Pourquoi l'abonnement IPTV Maroc gagne en 2026.",
+      "IPTV HD Maroc ou parabole satellite ? Comparatif prix, installation, chaînes et mobilité. Pourquoi choisir un abonnement IPTV Maroc en 2026.",
     excerpt:
       "Satellite ou IPTV HD Maroc ? On compare les deux solutions pour les foyers marocains : coût, installation, chaînes et flexibilité.",
     publishedAt: "2026-06-15",
@@ -266,7 +266,7 @@ export const blogPosts: BlogPost[] = [
     title: "Comment reconnaître un fournisseur IPTV Maroc fiable ?",
     metaTitle: "Fournisseur IPTV Maroc fiable — 7 critères | Mozaic.ma",
     metaDescription:
-      "7 signes d'un fournisseur IPTV Maroc fiable : support, transparence, stabilité, politique de remboursement. Évitez les arnaques IPTV Maroc.",
+      "7 signes d'un fournisseur IPTV Maroc fiable : support réactif, transparence des tarifs, stabilité et remboursement. Évitez les arnaques IPTV.",
     excerpt:
       "Support réactif, transparence, pages légales et stabilité : les 7 critères pour identifier un fournisseur IPTV Maroc de confiance.",
     publishedAt: "2026-06-18",
@@ -355,7 +355,7 @@ export const blogPosts: BlogPost[] = [
     title: "IPTV Maroc sur Fire Stick : installation complète",
     metaTitle: "IPTV Maroc Fire Stick — Guide installation | Mozaic.ma",
     metaDescription:
-      "Configurer IPTV Maroc sur Amazon Fire TV Stick : Downloader, IPTV Smarters, Xtream Codes. Guide fournisseur IPTV Maroc pas à pas.",
+      "Installer IPTV Maroc sur Amazon Fire TV Stick étape par étape : Downloader, IPTV Smarters et Xtream Codes. Guide complet fournisseur IPTV Maroc.",
     excerpt:
       "Fire Stick et abonnement IPTV Maroc : de l'installation de l'application à la première chaîne en direct, suivez notre tutoriel complet.",
     publishedAt: "2026-08-07",
@@ -439,7 +439,7 @@ export const blogPosts: BlogPost[] = [
     title: "IPTV Maroc qui freeze ou buffer : 8 solutions efficaces",
     metaTitle: "IPTV Maroc buffer & freeze — Solutions | Mozaic.ma",
     metaDescription:
-      "Votre IPTV Maroc freeze ou buffer ? 8 solutions : connexion, Wi-Fi, application, serveur. Dépannage fournisseur IPTV Maroc Mozaic.ma.",
+      "Votre IPTV Maroc freeze ou buffer ? 8 solutions concrètes : connexion, Wi-Fi 5 GHz, application et serveur. Dépannage IPTV Maroc sur Mozaic.ma.",
     excerpt:
       "Coupures, buffering, image figée : diagnostiquez et résolvez les problèmes de votre abonnement IPTV Maroc avec ce guide de dépannage.",
     publishedAt: "2026-10-07",
@@ -486,7 +486,7 @@ export const blogPosts: BlogPost[] = [
     title: "IPTV Smarters Maroc : tutoriel complet pour débutants",
     metaTitle: "IPTV Smarters Maroc — Tutoriel complet | Mozaic.ma",
     metaDescription:
-      "Maîtrisez IPTV Smarters Pro pour votre abonnement IPTV Maroc : Xtream Codes, EPG, favoris et multi-écrans. Guide fournisseur IPTV Maroc.",
+      "Maîtrisez IPTV Smarters Pro pour votre abonnement IPTV Maroc : Xtream Codes, EPG, favoris et multi-écrans. Tutoriel fournisseur IPTV Maroc 2026.",
     excerpt:
       "IPTV Smarters est l'application n°1 des abonnés IPTV Maroc. Apprenez à la configurer, organiser vos chaînes et profiter de la VOD.",
     publishedAt: "2026-11-07",

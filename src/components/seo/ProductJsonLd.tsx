@@ -5,7 +5,7 @@ import { absoluteUrl } from "@/lib/seo";
 const plans = [
   { id: "discovery", price: 149, months: 3 },
   { id: "comfort", price: 249, months: 6 },
-  { id: "family", price: 249, months: 12 },
+  { id: "family", price: 399, months: 12 },
 ] as const;
 
 type ProductJsonLdProps = {

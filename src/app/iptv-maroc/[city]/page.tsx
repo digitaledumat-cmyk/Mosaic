@@ -32,7 +32,7 @@ export async function generateMetadata({
 
   return buildPageMeta({
     title: `${t(`cities.${city}.name`)} — Meilleur IPTV Maroc | Mozaic.ma`,
-    description: t(`cities.${city}.text`),
+    description: t(`cities.${city}.metaDescription`),
     path: `/iptv-maroc/${city}`,
   });
 }
