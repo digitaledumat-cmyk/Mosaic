@@ -21,6 +21,12 @@ const OLD_PREFIXES = [
 ];
 
 export function middleware(request: NextRequest) {
+  const host = request.headers.get("host");
+  if (host === "www.mozaic.ma") {
+    const url = new URL(request.nextUrl.pathname + request.nextUrl.search, "https://mozaic.ma");
+    return NextResponse.redirect(url, 301);
+  }
+
   const { pathname } = request.nextUrl;
 
   // Legacy /fr locale URLs → clean URLs
