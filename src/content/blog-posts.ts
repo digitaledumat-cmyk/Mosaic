@@ -588,15 +588,15 @@ export const blogPosts: BlogPost[] = [
     sections: [
       {
         paragraphs: [
-          "Trouver un IPTV Maroc vraiment correct, ce n'est pas toujours simple. Beaucoup d'abonnés connaissent le scénario : le match commence, le score grimpe… et l'image freeze. Ou alors la chaîne saute pile au moment d'un but. Ou encore le « support » qui répond trois jours trop tard.",
-          "Si vous cherchez un abonnement IPTV Maroc serein — sans stress, sans mauvaise surprise — Ondima se positionne clairement comme une solution premium. Sur https://ondima.ma/, la plateforme mise sur la stabilité, la qualité d'image et un accompagnement réel. Voici pourquoi Ondima IPTV mérite votre attention.",
+          "Trouver un [IPTV Maroc](https://ondima.ma/) vraiment correct, ce n'est pas toujours simple. Beaucoup d'abonnés connaissent le scénario : le match commence, le score grimpe… et l'image freeze. Ou alors la chaîne saute pile au moment d'un but. Ou encore le « support » qui répond trois jours trop tard.",
+          "Si vous cherchez un [abonnement IPTV Maroc](https://ondima.ma/abonnement-iptv) serein — sans stress, sans mauvaise surprise — Ondima se positionne clairement comme une solution premium. Sur [ondima.ma](https://ondima.ma/), la plateforme mise sur la stabilité, la qualité d'image et un accompagnement réel. Voici pourquoi [Ondima IPTV](https://ondima.ma/) mérite votre attention.",
         ],
       },
       {
         heading: "Pourquoi choisir un abonnement IPTV fiable au Maroc ?",
         paragraphs: [
-          "Au Maroc comme dans la diaspora, le marché de l'IPTV est saturé d'offres low-cost. Le prix attire… jusqu'au premier derby, jusqu'à la finale, jusqu'au JT du soir. Un IPTV fiable Maroc, ce n'est pas « le moins cher ». C'est celui qui tient quand la demande explose.",
-          "Les serveurs surchargés, les lignes revendues trop de fois, l'absence de conditions claires : voilà ce qui transforme un abonnement IPTV Maroc en source de frustration. Au contraire, un meilleur IPTV Maroc repose sur une infrastructure solide, une activation propre et un support joignable.",
+          "Au Maroc comme dans la diaspora, le marché de l'IPTV est saturé d'offres low-cost. Le prix attire… jusqu'au premier derby, jusqu'à la finale, jusqu'au JT du soir. Un [IPTV fiable Maroc](https://ondima.ma/), ce n'est pas « le moins cher ». C'est celui qui tient quand la demande explose.",
+          "Les serveurs surchargés, les lignes revendues trop de fois, l'absence de conditions claires : voilà ce qui transforme un [abonnement IPTV Maroc](https://ondima.ma/abonnement-iptv) en source de frustration. Au contraire, un [meilleur IPTV Maroc](https://ondima.ma/) repose sur une infrastructure solide, une activation propre et un support joignable.",
         ],
         list: [
           "Buffering permanent aux heures de pointe",
@@ -609,44 +609,44 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Ondima.ma : la révolution de l'IPTV Maroc",
         paragraphs: [
-          "Ondima n'est pas une offre « jetable » trouvée au hasard sur les réseaux. C'est une plateforme conçue pour livrer un IPTV Maroc premium : image nette, flux stables, expérience pensée pour les foyers marocains — au Maroc comme à l'étranger.",
-          "Sur https://ondima.ma/, vous découvrez une présentation claire du service, des formules d'abonnement IPTV Maroc lisibles et une approche orientée fiabilité. Ondima IPTV insiste sur la qualité d'expérience plutôt que sur les promesses vagues.",
-          "Autre point important : Ondima communique sur un cadre transparent (conditions d'utilisation, bonnes pratiques, service structuré). Pour beaucoup d'abonnés, c'est exactement ce qui manque aux vendeurs anonymes : un IPTV fiable Maroc avec une marque identifiable et des règles claires.",
+          "Ondima n'est pas une offre « jetable » trouvée au hasard sur les réseaux. C'est une plateforme conçue pour livrer un [IPTV Maroc](https://ondima.ma/) premium : image nette, flux stables, expérience pensée pour les foyers marocains — au Maroc comme à l'étranger.",
+          "Sur [ondima.ma](https://ondima.ma/), vous découvrez une présentation claire du service, des formules d'[abonnement IPTV Maroc](https://ondima.ma/abonnement-iptv) lisibles et une approche orientée fiabilité. [Ondima IPTV](https://ondima.ma/) insiste sur la qualité d'expérience plutôt que sur les promesses vagues.",
+          "Autre point important : Ondima communique sur un cadre transparent (conditions d'utilisation, bonnes pratiques, service structuré). Pour beaucoup d'abonnés, c'est exactement ce qui manque aux vendeurs anonymes : un [IPTV fiable Maroc](https://ondima.ma/) avec une marque identifiable et des règles claires.",
         ],
       },
       {
         heading: "Les avantages exclusifs de l'abonnement IPTV Ondima",
         paragraphs: [
-          "Voici ce qui distingue un abonnement IPTV Maroc Ondima d'une offre basique. Ces avantages répondent directement aux douleurs les plus fréquentes des utilisateurs marocains.",
+          "Voici ce qui distingue un [abonnement IPTV Maroc](https://ondima.ma/abonnement-iptv) Ondima d'une offre basique. Ces avantages répondent directement aux douleurs les plus fréquentes des utilisateurs marocains.",
         ],
         list: [
-          "Moins de buffering : flux optimisés pour rester fluides, même pendant les pics d'audience",
-          "Qualité HD et 4K : une image nette pour le sport, les séries et les chaînes marocaines",
-          "Support 24h/24 : une assistance disponible quand vous en avez besoin, pas « demain incha'Allah »",
-          "Compatibilité large : Smart TV, Android, Fire Stick, box MAG et applications IPTV populaires",
-          "Activation rapide : vous démarrez sans parcours technique interminable",
-          "Expérience premium : Ondima IPTV vise le confort au quotidien, pas seulement la démo du premier jour",
+          "**Moins de buffering** : flux optimisés pour rester fluides, même pendant les pics d'audience",
+          "**Qualité HD et 4K** : une image nette pour le sport, les séries et les chaînes marocaines",
+          "**Support 24h/24** : une assistance disponible quand vous en avez besoin, pas « demain incha'Allah »",
+          "**Compatibilité large** : Smart TV, Android, Fire Stick, box MAG et applications IPTV populaires",
+          "**Activation rapide** : vous démarrez sans parcours technique interminable",
+          "**Expérience premium** : [Ondima IPTV](https://ondima.ma/) vise le confort au quotidien, pas seulement la démo du premier jour",
         ],
       },
       {
         heading: "Comment souscrire à l'offre Ondima ?",
         paragraphs: [
-          "Souscrire à Ondima est simple et direct. Commencez par consulter les formules sur la page d'abonnement : https://ondima.ma/abonnement-iptv. Comparez les durées, choisissez celle qui correspond à votre usage (test court ou engagement annuel), puis validez votre commande selon le parcours indiqué sur le site.",
-          "Une fois l'abonnement IPTV Maroc activé, il ne reste qu'à configurer votre appareil (Smart TV, Android ou box). Si vous hésitez encore, passez d'abord par la page d'accueil https://ondima.ma/ pour comprendre l'offre, puis revenez à la page tarifs pour finaliser.",
+          "Souscrire à Ondima est simple et direct. Commencez par consulter les formules sur la page [abonnement IPTV Maroc](https://ondima.ma/abonnement-iptv). Comparez les durées, choisissez celle qui correspond à votre usage (test court ou engagement annuel), puis validez votre commande selon le parcours indiqué sur le site.",
+          "Une fois l'[abonnement IPTV Maroc](https://ondima.ma/abonnement-iptv) activé, il ne reste qu'à configurer votre appareil (Smart TV, Android ou box). Si vous hésitez encore, passez d'abord par la [page d'accueil Ondima](https://ondima.ma/) pour comprendre l'offre, puis revenez à la page tarifs pour finaliser.",
         ],
         list: [
-          "1. Visitez https://ondima.ma/",
-          "2. Ouvrez https://ondima.ma/abonnement-iptv",
-          "3. Choisissez votre formule Ondima IPTV",
+          "1. Visitez [ondima.ma](https://ondima.ma/)",
+          "2. Ouvrez [l'abonnement IPTV Maroc](https://ondima.ma/abonnement-iptv)",
+          "3. Choisissez votre formule [Ondima IPTV](https://ondima.ma/)",
           "4. Activez et configurez votre application / box",
-          "5. Profitez d'un IPTV Maroc plus stable au quotidien",
+          "5. Profitez d'un [IPTV Maroc](https://ondima.ma/) plus stable au quotidien",
         ],
       },
       {
         heading: "Conclusion : passez à un IPTV Maroc sans stress",
         paragraphs: [
-          "Si vous en avez assez des freeze, des chaînes qui sautent et des supports fantômes, il est temps de choisir autrement. Ondima propose un IPTV Maroc pensé pour la fiabilité : un meilleur IPTV Maroc pour ceux qui veulent regarder tranquillement, surtout pendant les grands matchs.",
-          "Prêt à tester un IPTV fiable Maroc ? Découvrez Ondima IPTV sur https://ondima.ma/ et choisissez votre abonnement IPTV Maroc sur https://ondima.ma/abonnement-iptv. Moins de stress. Plus de plaisir. C'est exactement ce qu'un bon IPTV Maroc devrait être.",
+          "Si vous en avez assez des freeze, des chaînes qui sautent et des supports fantômes, il est temps de choisir autrement. Ondima propose un [IPTV Maroc](https://ondima.ma/) pensé pour la fiabilité : un [meilleur IPTV Maroc](https://ondima.ma/) pour ceux qui veulent regarder tranquillement, surtout pendant les grands matchs.",
+          "Prêt à tester un [IPTV fiable Maroc](https://ondima.ma/) ? Découvrez [Ondima IPTV](https://ondima.ma/) et choisissez votre [abonnement IPTV Maroc](https://ondima.ma/abonnement-iptv). Moins de stress. Plus de plaisir. C'est exactement ce qu'un bon IPTV Maroc devrait être.",
         ],
       },
     ],

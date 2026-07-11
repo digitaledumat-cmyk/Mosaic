@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { WHATSAPP_URL } from "@/lib/constants";
 import type { BlogPost } from "@/content/blog-posts";
@@ -15,7 +16,62 @@ function formatDate(iso: string) {
   });
 }
 
+/** Renders lightweight markdown: [label](url) and **bold** */
+function RichText({ text }: { text: string }) {
+  const nodes: ReactNode[] = [];
+  const pattern = /(\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*)/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
+    }
+
+    if (match[2] && match[3]) {
+      const href = match[3];
+      const label = match[2];
+      const isExternal = href.startsWith("http");
+      nodes.push(
+        <a
+          key={key++}
+          href={href}
+          {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+          className="font-semibold text-ma-red-light underline decoration-ma-red/50 underline-offset-2 transition hover:text-white"
+        >
+          {label}
+        </a>,
+      );
+    } else if (match[4]) {
+      nodes.push(
+        <strong key={key++} className="font-semibold text-white">
+          {match[4]}
+        </strong>,
+      );
+    }
+
+    lastIndex = match.index + match[0].length;
+  }
+
+  if (lastIndex < text.length) {
+    nodes.push(text.slice(lastIndex));
+  }
+
+  return <>{nodes}</>;
+}
+
+const KEYWORD_LINKS: Record<string, string> = {
+  "IPTV Maroc": "https://ondima.ma/",
+  "abonnement IPTV Maroc": "https://ondima.ma/abonnement-iptv",
+  "IPTV fiable Maroc": "https://ondima.ma/",
+  "meilleur IPTV Maroc": "https://ondima.ma/",
+  "Ondima IPTV": "https://ondima.ma/",
+};
+
 export default function BlogArticle({ post, relatedPosts = [] }: BlogArticleProps) {
+  const isOndimaArticle = post.slug === "ondima-iptv-maroc-fiable";
+
   return (
     <article className="mx-auto max-w-3xl">
       <header className="mb-10 border-b border-white/10 pb-8">
@@ -25,14 +81,27 @@ export default function BlogArticle({ post, relatedPosts = [] }: BlogArticleProp
           <span>{post.readTime} de lecture</span>
         </div>
         <div className="flex flex-wrap gap-2">
-          {post.keywords.map((keyword) => (
-            <span
-              key={keyword}
-              className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/70"
-            >
-              {keyword}
-            </span>
-          ))}
+          {post.keywords.map((keyword) => {
+            const href = isOndimaArticle ? KEYWORD_LINKS[keyword] : undefined;
+            const className =
+              "rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/70 transition hover:border-ma-red/40 hover:text-white";
+
+            return href ? (
+              <a
+                key={keyword}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={className}
+              >
+                {keyword}
+              </a>
+            ) : (
+              <span key={keyword} className={className}>
+                {keyword}
+              </span>
+            );
+          })}
         </div>
       </header>
 
@@ -44,7 +113,7 @@ export default function BlogArticle({ post, relatedPosts = [] }: BlogArticleProp
             )}
             {section.paragraphs.map((paragraph, pIndex) => (
               <p key={pIndex} className="mb-4 text-base leading-relaxed text-white/80">
-                {paragraph}
+                <RichText text={paragraph} />
               </p>
             ))}
             {section.list && (
@@ -52,7 +121,9 @@ export default function BlogArticle({ post, relatedPosts = [] }: BlogArticleProp
                 {section.list.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-sm leading-relaxed text-white/80">
                     <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-ma-red" aria-hidden="true" />
-                    {item}
+                    <span>
+                      <RichText text={item} />
+                    </span>
                   </li>
                 ))}
               </ul>
