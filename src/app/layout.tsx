@@ -21,6 +21,15 @@ export async function generateMetadata(): Promise<Metadata> {
       description: t("description"),
       path: "/",
     }),
+    keywords: [
+      "IPTV Maroc",
+      "abonnement IPTV Maroc",
+      "meilleur IPTV Maroc",
+      "IPTV 4K Maroc",
+      "recharge IPTV Maroc",
+      "acheter IPTV Maroc",
+      "IPTV Maroc premium",
+    ],
     applicationName: "Mozaic.ma",
     robots: { index: true, follow: true },
   };
