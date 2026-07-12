@@ -20,7 +20,7 @@ const OLD_PREFIXES = [
   "/status/",
 ];
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const host = request.headers.get("host");
   if (host === "www.mozaic.ma") {
     const url = new URL(request.nextUrl.pathname + request.nextUrl.search, "https://mozaic.ma");
